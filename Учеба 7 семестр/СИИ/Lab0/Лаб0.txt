@@ -1,0 +1,21 @@
+import numpy as np
+import pandas as pd 
+from mpl_toolkits.mplot3d import axes3d
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('table.csv', sep = ';')
+#df.head()
+#x = np.array(df)
+x1 = df[['X1']]
+x2 = df[['X2']]
+y = df[['Y']]
+plt.plot(x1 ** 2, y, x2 ** 3, y)
+plt.grid(True)
+#plt.show()
+x1_d = x1
+x2_d = x2
+fig = plt.figure()
+ax1 = plt.axes(projection='3d')
+z = 0
+ax1.plot(x1_d, x2_d, z, '-b')
+plt.show()

@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "---------------------------------------------"
+mpiexec -f mpi_hosts -n 1 ./vpv_lab3
+echo "---------------------------------------------"
+mpiexec -f mpi_hosts -n 2 ./vpv_lab3
+echo "---------------------------------------------"
+mpiexec -f mpi_hosts -n 3 ./vpv_lab3
+echo "---------------------------------------------"
+mpiexec -f mpi_hosts -n 4 ./vpv_lab3
+echo "---------------------------------------------"
+mpiexec -f mpi_hosts -n 5 ./vpv_lab3
+echo "---------------------------------------------"
+mpiexec -f mpi_hosts -n 6 ./vpv_lab3
+echo "---------------------------------------------"
+mpiexec -f mpi_hosts -n 7 ./vpv_lab3
+echo "---------------------------------------------"
+mpiexec -f mpi_hosts -n 8 ./vpv_lab3
+echo "---------------------------------------------"
+

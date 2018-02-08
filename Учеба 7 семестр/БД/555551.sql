@@ -1,0 +1,1 @@
+﻿CREATE TRIGGER add_tvr BEFORE INSERT ON public.delivery FOR EACH ROW EXECUTE PROCEDURE public.check_add_id_prd();

@@ -1,0 +1,280 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using System.Security.Cryptography;
+using System.Collections;
+
+namespace ZashitaInf_1
+{
+    class Program
+    {
+        public static bool SaveData(string FileName, byte[] Data)
+        {
+            BinaryWriter Writer = null;
+            string Name = @"D:" + FileName;
+
+            try
+            {
+                Writer = new BinaryWriter(File.OpenWrite(Name));
+
+                Writer.Write(Data);
+                Writer.Flush();
+                Writer.Close();
+            }
+            catch
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        public static bool SaveToFile(string FileName, string[] Data)
+        {
+           using (System.IO.StreamWriter file =
+           new System.IO.StreamWriter(@"D:\NIST\output.txt"))
+            {
+                foreach (string line in Data)
+                {
+                    file.WriteLine(line);
+                }
+            }
+            return true;
+        }
+        public static string[] ConvertTo2(byte[] Data)
+        {
+            var result = new List<string>();
+            for (int i = 0; i < Data.Length; ++i)
+            {
+                result.Add(Convert.ToString(Data[i], 2).PadLeft(8, '0'));
+            }
+            return result.ToArray();
+        }
+     
+        class GeneratorParkMiller
+        {
+            private long x0;
+            private const int a = 16807;
+            private const int m = 2147483647;
+           
+
+            public GeneratorParkMiller(int num)
+            {
+                this.x0 = num;
+            }
+            public long[] getNexts(long len)
+            {
+                long[] arr = new long[len];
+                arr[0] = Random(this.x0);
+                for (int i = 1; i < arr.Length; i++)
+                {
+                    arr[i] = Random(arr[i - 1]);
+                }
+                return arr;
+
+            }
+            public static byte[] getBytes(long len, long[] values) // получаем из long[] массив byte[] 
+            {
+                var result = new List<byte>();
+
+                for (int i = 0; i < values.Length; i++)
+                {
+                    byte[] tmp = BitConverter.GetBytes(values[i]);
+
+                    for (int j = 0; j < tmp.Length; j++)
+                    {
+                        if (tmp[j] == 0) continue;
+
+                        if (result.Count == len) return result.ToArray();
+
+                        result.Add(tmp[j]);
+                    }
+                }
+
+                return result.ToArray();
+            }
+
+            private long Random(long x) // рекурентное выражение
+            {
+                return (x * a) % m;
+            }
+        }
+
+        public class LFSR
+        {
+            public int ShiftRegister { get; set; }
+            public int ShiftRegisterReserved { get; set; }
+            public int[] Polynomial { get; set; }
+
+            public Random r = new Random();
+
+            public LFSR(int value, int[] polynomial)
+            {
+                var r = new Random();
+                ShiftRegister = value;
+                ShiftRegisterReserved = r.Next();
+                this.Polynomial = polynomial;
+            }
+
+            public int GetBit()
+            {
+                if (ShiftRegister == 0 || ShiftRegister == Int32.MinValue)
+                    ShiftRegister = r.Next();
+
+                int tmp = ShiftRegister;
+
+                for (int i = 0; i < Polynomial.Length; i++)
+                {
+                    tmp ^= ShiftRegister >> (Polynomial[i] - 1);
+                }
+
+                tmp &= 0x00000001 << 31;
+
+                ShiftRegister = tmp | (ShiftRegister >> 1);
+
+                return ShiftRegister & 0x00000001;
+            }
+        }
+
+        class GenStopAndGo
+        {
+            public LFSR L1;
+            public LFSR L2;
+            public LFSR L3;
+
+            private Random rand = new Random();
+
+            public GenStopAndGo(int[] polinom1, int[] polinom2, int[] polinom3)
+            {
+                L1 = new LFSR(rand.Next(), polinom1);
+                L2 = new LFSR(rand.Next(), polinom2);
+                L3 = new LFSR(rand.Next(), polinom3);
+            }
+
+            public byte[] GetBytes(long length)
+            {
+                var result = new List<byte>();
+
+                for (int i = 0; i < length; i++)
+                {
+                    string currentByte = "";
+
+                    for (int j = 0; j < 8; j++)
+                    {
+                        currentByte += ((L1.GetBit() & L2.GetBit()) | ((L1.GetBit() & L3.GetBit())));
+                    }
+
+                    result.Add(Convert.ToByte(currentByte, 2));
+                }
+
+                return result.ToArray();
+            }
+
+        }
+
+
+        static void Main(string[] args)
+        {
+            byte str = 0;
+            long len = 0;
+
+            Console.WriteLine("Лабораторная работа №1: Изучение генераторов псевдослучайных последовательностей");
+            Console.WriteLine("Выполнил: Захарычев Н.А \n");
+
+            Console.WriteLine("1. Встроенный генератор языка высокого уровня");
+            Console.WriteLine("2. Встроенный в криптопровайдер Windows криптографический генератор");
+            Console.WriteLine("3. Генератор Стоп-Пошел");
+            Console.WriteLine("4. Генератор Парка-Миллера \n");
+
+            while (str == 0)
+            {
+                Console.WriteLine("Введите начальное значение: ");
+                try
+                {
+                    str = Byte.Parse(Console.ReadLine());
+                    if (str == 0) throw new Exception();
+                } catch
+                {
+                    Console.WriteLine("Неверное значение! Начальное значение должно быть в диапазоне от 1 до 255!");
+                }
+            }
+
+            while (len <= 0)
+            {
+                Console.WriteLine("Введите длину последовательности: ");
+                try
+                {
+                    len = Int64.Parse(Console.ReadLine());
+                    if (len <= 0) throw new Exception();
+                } catch
+                {
+                    len = 0;
+                    Console.WriteLine("Неверное значение! Длина может быть только целым положительным числом!");
+                }
+            }
+
+            byte[] sequence = new byte[len];
+
+            Console.WriteLine("Выберите генератор цифрой на клавиатуре: ");
+            ConsoleKeyInfo numKey = Console.ReadKey();
+            Console.WriteLine();
+            switch(numKey.Key)
+            {
+                case ConsoleKey.NumPad1:
+                    {
+                        Console.WriteLine("1. Встроенный генератор языка высокого уровня");
+                        var stnd_gen = new Random();
+                        stnd_gen.NextBytes(sequence);
+                        break;
+                    }
+                case ConsoleKey.NumPad2:
+                    {
+                        Console.WriteLine("2. Встроенный в криптопровайдер Windows криптографический генератор");
+                        var win_gen = new RNGCryptoServiceProvider();
+                        win_gen.GetBytes(sequence);
+                        break;
+                    }              
+                case ConsoleKey.NumPad3:
+                    {
+                        Console.WriteLine("3. Генератор Стоп-Пошел");
+                        int[] polinom1 = { 32, 7, 5, 3, 2, 1 };
+                        int[] polinom2 = { 32, 7, 6, 2 };
+                        int[] polinom3 = { 24, 4, 3, 1 };
+                        var genstgo = new GenStopAndGo(polinom1, polinom2, polinom3);
+                        sequence = genstgo.GetBytes(sequence.Length);
+                        break;
+                    }   
+                case ConsoleKey.NumPad4:
+                    {
+                        Console.WriteLine("4. Генератор Парка-Миллера");
+                        var GenParkMiller = new GeneratorParkMiller(str);
+                        long[] arr = GenParkMiller.getNexts(sequence.Length);
+                        sequence = GeneratorParkMiller.getBytes(sequence.Length, arr);
+                        break;
+                    }
+                   
+                default:
+                    Console.WriteLine("Пожалуйста введите цифру от 1 до 4!");
+                    Console.ReadKey();
+                    break;
+            }
+          //  var bits = ConvertTo2(sequence);
+            Console.WriteLine();
+            if (SaveData("output", sequence))
+            {
+                Console.WriteLine("Запись прошла успешно!");
+            }
+            else
+            {
+                Console.WriteLine("Ошибка записи!");
+            }
+            
+            Console.WriteLine();
+            Console.ReadKey();
+
+        }
+    }
+}

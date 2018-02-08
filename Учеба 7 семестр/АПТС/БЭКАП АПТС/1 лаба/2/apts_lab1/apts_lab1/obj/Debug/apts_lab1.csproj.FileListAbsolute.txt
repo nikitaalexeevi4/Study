@@ -1,0 +1,6 @@
+C:\Users\NikitaPC\Desktop\apts_lab1\apts_lab1\bin\Debug\apts_lab1.exe.config
+C:\Users\NikitaPC\Desktop\apts_lab1\apts_lab1\bin\Debug\apts_lab1.exe
+C:\Users\NikitaPC\Desktop\apts_lab1\apts_lab1\bin\Debug\apts_lab1.pdb
+C:\Users\NikitaPC\Desktop\apts_lab1\apts_lab1\obj\Debug\apts_lab1.csprojResolveAssemblyReference.cache
+C:\Users\NikitaPC\Desktop\apts_lab1\apts_lab1\obj\Debug\apts_lab1.exe
+C:\Users\NikitaPC\Desktop\apts_lab1\apts_lab1\obj\Debug\apts_lab1.pdb

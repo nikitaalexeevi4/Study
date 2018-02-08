@@ -1,0 +1,158 @@
+/*
+ * MPS_2_Ex.cpp
+ *
+ * Created: 16.10.2017 16:36:22
+ * Author : NikitaPC
+ */ 
+
+#define F_CPU 8000000
+#define DataPort	PORTC	// Using PortC as our Dataport
+#define DataDDR		DDRC
+#define USART_BAUDRATE 38400
+#define BAUD_PRESCALE (((F_CPU / (USART_BAUDRATE * 16UL))) - 1)
+
+#include <avr/io.h>
+#include <util/delay.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdbool.h>
+#include <time.h>
+#include <avr/interrupt.h>
+
+int i;
+// Создаем I, заданные по варианту
+int i1 = 0, i2 = 0, i3 = 0, i4 = 0;
+// создаем таймеры, заданные по вараинту
+int t1 = 0, t2 = 0, t3 = 0;
+// значения функций, создание лампочек
+int o1 = 0, o2 = 0, o3 = 0, o4 = 0;
+volatile unsigned char value;  
+
+
+void initTimer() {
+
+	MCUCR |= (1 << ISC10);      // set INT0 to trigger on ANY logic change
+	GICR |= (1 << INT1);      // Turns on INT0
+
+	TCCR1B |= (1<<WGM12);
+	TIMSK |= (1<<OCIE1A);
+	OCR1AH = 0b01111010;
+	OCR1AL = 0b00010010;
+	TCCR1B |= (1<<CS12);
+
+}
+void USART_Init(void){
+   // Set baud rate
+   UBRRL = BAUD_PRESCALE;// Load lower 8-bits into the low byte of the UBRR register
+   UBRRH = (BAUD_PRESCALE >> 8); 
+	 /* Load upper 8-bits into the high byte of the UBRR register
+    Default frame format is 8 data bits, no parity, 1 stop bit
+  to change use UCSRC, see AVR datasheet*/ 
+
+  // Enable receiver and transmitter and receive complete interrupt 
+  UCSRB = ((1<<TXEN)|(1<<RXEN) | (1<<RXCIE));
+}
+void setLeds(void) {
+	o1 = (!o2 && !o3 && !o4) && t3;
+	o2 = (i4 || o4 || i3) && t1;
+	o3 = (i1 && i2) && t2;
+	o4 = o3 && i3;
+	PORTC = o1 ? PORTC | (1<<PORTC0) : PORTC & ~(1<<PORTC0);
+	PORTC = o2 ? PORTC | (1<<PORTC1) : PORTC & ~(1<<PORTC1);
+	PORTC = o3 ? PORTC | (1<<PORTC2) : PORTC & ~(1<<PORTC2);
+	PORTC = o4 ? PORTC | (1<<PORTC3) : PORTC & ~(1<<PORTC3);
+
+}
+ISR(USART_RXC_vect){
+	
+	value = UDR;             //read UART register into value
+	PORTB = ~value;          // output inverted value on LEDs (0=on)
+}
+
+ISR (TIMER1_COMPA_vect)
+{
+	i++;
+	if (i % 5 == 0) t1 = !t1;
+	if (i % 7 == 0) t2 = !t2;
+	if (i % 9 == 0) t3 = !t3;
+	setLeds();
+}
+
+ISR(INT1_vect)
+{
+	unsigned char i, temp;
+	_delay_ms(500); // Задержка
+	temp = DataPort;	// Сохраняем текущее значение лампочек
+	// Мигаем лампочками 5секунд
+	for(i = 0; i<5; i++)
+	{
+		DataPort = 0x00;
+		_delay_ms(500);	// Задержка
+		DataPort = 0xFF;
+		_delay_ms(500);	// Задержка
+	}
+	DataPort = temp;	// Вовзаращаем исходное значение лампочек
+}
+void USART_SendByte(uint8_t u8Data){
+
+	// Wait until last byte has been transmitted
+	while((UCSRA &(1<<UDRE)) == 0);
+
+	// Transmit data
+	UDR = u8Data;
+}
+
+
+// not being used but here for completeness
+// Wait until a byte has been received and return received data
+uint8_t USART_ReceiveByte(){
+	while((UCSRA &(1<<RXC)) == 0);
+	return UDR;
+}
+
+void Led_init(void){
+	
+		DataDDR = 0xFF;
+		DataPort = 0xFF;
+
+}
+
+
+
+int main (void)
+{
+	initTimer();
+	USART_Init(); 
+	// Устаналиваем PORTB на режим чтения
+	DDRB = 0x00;
+	PORTB = 0x00;
+	// Устаналиваем PORTС на режим записи
+	DDRC = 0xFF;
+	PORTC = 0x00;
+	//DDRD = 1<<PD2;		// Set PD2 as input (Using for interupt INT0)
+	//PORTD = 1<<PD2;		// Enable PD2 pull-up resistor
+	MCUCR |= (1 << ISC10);    // set INT1 to trigger on ANY logic change
+
+	i = 0;
+	sei();
+	i1 = PINB&(1<<0);
+	i2 = PINB&(1<<1);
+	i3 = PINB&(1<<2);
+	i4 = PINB&(1<<3);
+	setLeds();
+	Led_init();    // init LEDs for testing
+	value = 'A'; //0x41;
+	PORTB = ~value; // 0 = LED on
+
+	while(1) {
+		int inp = PINB;
+		i1 = inp & (1<<PB0);
+		i2 = inp & (1<<PB1);
+		i3 = inp & (1<<PB2);
+		i4 = inp & (1<<PB3);
+		USART_SendByte(value);  // send value
+		_delay_ms(250);
+
+	}
+
+}

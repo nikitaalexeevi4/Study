@@ -1,0 +1,1935 @@
+ 
+1 potok
+
+    1000
+processors count 1
+recive: x1=1; x2=3; process_id: 0
+res 3.25085; time 0.000166
+10000
+processors count 1
+recive: x1=1; x2=3; process_id: 0
+res 3.25086; time 0.000326
+100000
+processors count 1
+recive: x1=1; x2=3; process_id: 0
+res 3.25086; time 0.002749
+1000000
+processors count 1
+recive: x1=1; x2=3; process_id: 0
+res 3.25086; time 0.021975
+10000000
+processors count 1
+recive: x1=1; x2=3; process_id: 0
+res 3.25086; time 0.204791
+100000000
+processors count 1
+recive: x1=1; x2=3; process_id: 0
+res 3.25086; time 2.0475
+1000000000
+processors count 1
+recive: x1=1; x2=3; process_id: 0
+res 3.25086; time 20.4696
+
+2 potoka
+
+10001000
+processors count 2
+
+x1=2 x2=3
+recive: x1=1; x2=2; process_id: 0
+recive: x1=2; x2=3; process_id: 1
+res 100003.25085; time 
+0.000611recive: x1=
+2; x2=3; process_id: 1
+10000
+processors count 2
+x1=2 x2=3
+recive: x1=1; x2=2; process_id: 0
+100000
+recive: x1=res 2; x2=3; process_id: 1
+3.25086; time 0.000273
+100000
+processors count 2
+x1=2 x2=3
+recive: x1=1; x2=2; process_id: 0
+1000000
+res recive: x1=3.25086; time 2; x2=0.001412
+3; process_id: 1
+1000000
+processors count 2
+x1=2 x2=3
+recive: x1=1; x2=2; process_id: 0
+10000000
+res recive: x1=3.25086; time 2; x2=0.0113; process_id: 1
+
+10000000
+processors count 2
+x1=2 x2=3
+recive: x1=1; x2=2; process_id: 0
+100000000
+res recive: x1=3.25086; time 0.1063552; x2=
+3; process_id: 1
+100000000
+processors count 2
+x1=2 x2=3
+recive: x1=1; x2=2; process_id: 0
+1000000000
+recive: x1=res 2; x2=3.25086; time 1.05875
+1000000000
+processors count 2
+x1=2 x2=3
+3; process_id: 1
+recive: x1=1; x2=2; process_id: 0
+res 3.25086; time 10.5722
+
+3 potoko
+
+10001000
+processors count 3
+
+1000x1=
+1.66667 x2=2.33333
+x1=recive: x1=2.33333 x2=3
+1.66667; x2=2.33333; process_id: 1
+recive: x1=recive: x1=1; x2=2.33333; x2=1.666673; process_id: 2
+; process_id: 0
+10000
+10000
+res 3.25085; time 0.000937
+10000
+recive: x1=processors count 3
+1.66667; x2=2.33333; process_id: 1
+recive: x1=x1=100000
+2.33333; x2=3; process_id: 2
+1.66667 x2=2.33333
+recive: x1=100000
+x1=1.66667; x2=2.33333; process_id: 1
+recive: x1=2.33333 x2=3
+2.33333; x2=3; process_id: 2
+recive: x1=1; x2=1.66667; process_id: 0
+res 3.25086; time 0.0003
+100000
+processors count 3
+x1=1.66667 x2=2.33333
+x1=2.33333 x2=3
+recive: x1=1; x2=1.66667; process_id: 0
+1000000
+1000000
+res 3.25086; time 0.000956
+1000000
+processors count 3
+x1=1.66667 x2=recive: x1=2.33333
+1.66667; x2=2.33333; process_id: 1
+recive: x1=x1=2.333332.33333; x2=3 x2=; process_id: 2
+3
+recive: x1=1; x2=1.66667; process_id: 0
+10000000
+10000000
+res 3.25086; time 0.007603
+10000000
+processors count recive: x1=1.66667; x2=2.33333; process_id: 1
+3
+x1=1.66667 x2=recive: x1=2.333332.33333; x2=3; process_id: 2
+
+x1=2.33333 x2=3
+recive: x1=1; x2=1.66667; process_id: 0
+100000000
+100000000
+res 3.25086; time 0.072987
+100000000
+processors count 3
+x1=1.66667 x2=2.33333
+x1=2.33333 x2=recive: x1=31.66667
+; x2=recive: x1=2.333331; process_id: recive: x1=12.33333; x2=3; x2=; process_id: 2
+1.66667; process_id: 0
+
+1000000000
+1000000000
+res 3.25086; time 0.728684
+1000000000
+processors count 3
+x1=1.66667 x2=2.33333
+x1=2.33333recive: x1=1.66667; x2=2.33333; process_id:  x2=1
+3
+recive: x1=1; x2=recive: x1=1.666672.33333; x2=3; process_id: 2
+; process_id: 0
+res 3.25086; time 7.27613
+
+4 potoka
+
+10001000
+1000
+1000
+processors count 
+4
+x1=1.5 x2=2
+x1=recive: x1=21.5; x2= x2=2; process_id: 1
+2.5
+x1=2.5 x2=3recive: x1=
+2; x2=2.5; process_id: 2
+recive: x1=1; x2=recive: x1=1.5; process_id: 2.5; x2=3; process_id: 3
+0
+10000
+10000
+10000
+res 3.25085; time 0.001386
+10000
+processors count 4
+x1=1.5 x2=2
+x1=2 x2=recive: x1=1.5; x2=2; process_id: 12.5
+
+x1=2.5 x2=recive: x1=32; x2=2.5; process_id: 2
+
+recive: x1=1; x2=recive: x1=2.5; x2=3; process_id: 31.5
+; process_id: 0
+100000
+100000
+100000
+res 3.25086; time 0.000322
+100000
+processors count 4
+x1=1.5 x2=2
+x1=2 x2=recive: x1=1.5; x2=2; process_id: 1
+2.5
+x1=2.5 x2=recive: x1=32; x2=2.5; process_id: 2
+
+recive: x1=1; x2=1.5recive: x1=2.5; x2=3; process_id: 3
+; process_id: 0
+10000001000000
+
+1000000
+res 3.25086; time 0.000814
+1000000
+processors count 4
+x1=1.5 x2=2
+x1=2 x2=recive: x1=1.5; x2=2; process_id: 1
+2.5
+x1=2.5 x2=recive: x1=2; x2=2.5; process_id: 2
+recive: x1=32.5; x2=3; process_id: 3
+
+recive: x1=1; x2=1.5; process_id: 0
+10000000
+10000000
+10000000
+res 3.25086; time 0.006594
+10000000
+processors count 4
+x1=1.5 x2=2
+recive: x1=1.5; x2=2; process_id: 1
+recive: x1=recive: x1=x1=2 x2=2.5
+2; x2=2.5; process_id: 2
+2.5; x2=3; process_id: 3
+x1=2.5 x2=3
+recive: x1=1; x2=1.5; process_id: 0
+100000000
+100000000
+100000000
+res 3.25086; time 0.05729
+100000000
+processors count 4
+x1=1.5 x2=2
+recive: x1=x1=2 x2=2.5
+1.5recive: x1=x1=2.5 x2=3
+; x2=2; process_id: 12.5; x2=3; process_id: 3
+recive: x1=recive: x1=
+1; x2=1.5; process_id: 0
+2; x2=2.5; process_id: 2
+1000000000
+1000000000
+1000000000
+res recive: x1=3.25086; time 0.551544
+1000000000
+processors count 4
+x1=1.5 x2=2
+x1=2 x2=2.5
+x1=1.5; x2=2.5 x2=2; process_id: 1
+recive: x1=3
+recive: x1=recive: x1=2.5; x2=1; x2=2; x2=2.5; process_id: 2
+3; process_id: 3
+1.5; process_id: 0
+res 3.25086; time 5.478
+
+5 potok
+
+100010001000
+processors count 5
+x1=1.4 x2=1.8
+
+
+1000
+1000
+x1=recive: x1=1.81.4; x2= x2=1.8; process_id: 12.2
+
+x1=recive: x1=2.21.8; x2= x2=2.2; process_id: 2
+recive: x1=2.62.2; x2=
+2.6; process_id: 3
+x1=1000010000
+2.6
+recive: x1=2.2; x2=2.6; process_id: 3
+ x2=recive: x1=31.8; x2=2.2; process_id: 2
+
+100000
+recive: x1=100000
+recive: x1=2.6; x2=3; process_id: 4
+1recive: x1=2.2; x2=recive: x1=; x2=2.6; process_id: 3
+1.41.8; x2=2.2; process_id: 2
+; process_id: 0
+10000
+res 3.25085; time 0.006191
+10000
+1000000
+1000000
+processors count 5
+x1=1.4 x2=1.8
+x1=1.8 x2=2.2
+x1=2.2recive: x1= x2=1.8; x2=2.2; process_id: 2
+recive: x1=2.62.2; x2=2.6; process_id: 3
+
+x1=2.6 x2=3
+recive: x1=recive: x1=2.6; x2=3; process_id: 4
+1; x2=1.4; process_id: 0
+100000
+res 3.25086; time 0.000351
+100000
+processors count 510000
+recive: x1=1.4; x2=1.8; process_id: 1
+100000
+recive: x1=1.4; x2=1.8; process_id: 1
+1000000
+recive: x1=1.4; x2=1.8; process_id: 1
+
+x1=1.4 x2=1.8
+x1=1.8 x2=2.2
+x1=2.2 x2=2.6
+x1=2.6 x2=3
+recive: x1=recive: x1=2.6; x2=3; process_id: 4
+1; x2=1.4; process_id: 0
+res 3.25086; time 10000000.000993
+1000000
+processors count 5
+x1=1.4 x2=1.8
+x1=
+1.8 x2=2.2
+x1=2.2 x2=2.6
+x1=2.6 x2=3
+recive: x1=recive: x1=2.6; x2=3; process_id: 4
+1; x2=1.4; process_id: 0
+10000000
+10000000
+10000000
+res recive: x1=10000000recive: x1=1.4; x2=3.25086; time 0.004541
+10000000
+processors count 5
+x1=1.8recive: x1=2.21.8; process_id: 11.4 x2=; x2=; x2=2.6; process_id: 3
+
+
+2.2; process_id: 21.8
+
+x1=1.8 x2=2.2
+x1=2.2 x2=2.6
+x1=2.6 x2=3
+recive: x1=recive: x1=2.6; x2=3; process_id: 4
+1; x2=1.4; process_id: 0
+100000000
+100000000
+100000000
+res 100000000recive: x1=3.25086; time 0.043868
+100000000
+processors count 5
+x1=1.4; x2=1.8; process_id: 1
+
+1.4 x2=1.8
+recive: x1=x1=1.8; x2=2.2; process_id: 2
+1.8recive: x1= x2=2.2; x2=2.6; process_id: 3
+2.2
+x1=2.2 x2=2.6
+x1=2.6 x2=3
+recive: x1=recive: x1=2.6; x2=3; process_id: 4
+1; x2=1.4; process_id: 0
+1000000000
+1000000000
+1000000000
+res 1000000000
+3.25086; time 0.418818
+1000000000
+processors count 5
+x1=1.4 x2=1.8
+x1=recive: x1=recive: x1=1.8recive: x1=2.2; x2=2.6; process_id: 31.4; x2=1.8; process_id: 1
+ x2=1.8; x2=2.2
+2.2; process_id: 2
+
+x1=2.2 x2=2.6
+x1=2.6 x2=3
+recive: x1=recive: x1=2.6; x2=3; process_id: 4
+1; x2=1.4; process_id: 0
+res 3.25086; time 4.28577
+
+6 potok
+
+1000
+1000
+10001000
+
+1000
+processors count 61000
+x1=
+1.33333 x2=1.66667
+x1=recive: x1=1.66667 x2=1.33333; x2=1.666672; process_id: 1
+
+x1=2 x2=recive: x1=2.333331.66667; x2=2; process_id: 2
+
+x1=2.33333recive: x1= x2=2; x2=2.666672.33333; process_id: 3
+
+x1=recive: x1=2.33333; x2=2.66667; process_id: 4
+2.66667 x2=3
+recive: x1=1; x2=1.33333; process_id: 0
+recive: x1=2.66667; x2=3; process_id: 5
+1000010000
+
+10000
+10000
+10000
+res 3.25085; time 0.003724
+10000
+processors count 6
+x1=1.33333 x2=1.66667
+x1=recive: x1=1.666671.33333 x2=; x2=1.666672; process_id: 1
+
+x1=recive: x1=21.66667; x2=2; process_id: 2
+ x2=2.33333
+x1=recive: x1=2.333332; x2=2.33333; process_id: 3
+ x2=2.66667
+x1=recive: x1=2.33333; x2=2.66667; process_id: 4
+2.66667 x2=3
+recive: x1=recive: x1=1; x2=2.66667; x2=1.333333; process_id: ; process_id: 5
+0
+100000100000
+100000
+
+100000
+100000res 
+3.25086; time 0.000665
+100000
+processors count 6
+x1=1.33333 x2=1.66667
+x1=recive: x1=1.666671.33333; x2= x2=1.66667; process_id: 12
+
+x1=recive: x1=21.66667; x2=2; process_id: 2
+ x2=2.33333
+x1=recive: x1=2.333332; x2=2.33333; process_id: 3
+ x2=2.66667
+x1=recive: x1=2.33333; x2=2.66667; process_id: 4
+2.66667 x2=3
+recive: x1=recive: x1=12.66667; x2=; x2=3; process_id: 1.333335
+; process_id: 0
+1000000
+10000001000000
+
+1000000
+res 1000000recive: x1=recive: x1=recive: x1=3.25086; time 0.001101
+1000000
+processors count 2; x2=2.33333; process_id: 3
+1.333331.66667; x2=2; process_id: 2
+6
+x1=; x2=
+1.666671.33333 x2=1.66667
+; process_id: x1=11.66667
+ x2=recive: x1=22.66667
+; x2=x1=32; process_id:  x2=52.33333
+
+x1=2.33333 x2=2.66667
+x1=recive: x1=2.33333; x2=2.66667; process_id: 4
+2.66667 x2=3
+recive: x1=1; x2=1.33333; process_id: 0
+1000000010000000
+
+10000000
+10000000
+res 100000003.25086; time 0.005001
+10000000
+processors count 6
+x1=
+1.33333 x2=1.66667
+recive: x1=x1=1.333331.66667; x2= x2=1.666672; process_id: 
+1x1=
+2recive: x1=recive: x1=21.66667; x2=2; process_id: 2
+; x2=2.33333; process_id: 3
+recive: x1= x2=2.666672.33333
+; x2=x1=2.33333 x2=2.66667
+3x1=recive: x1=2.33333; x2=; process_id: 2.66667; process_id: 4
+52.66667
+ x2=3
+recive: x1=1; x2=1.33333; process_id: 0
+100000000
+100000000
+100000000
+100000000
+100000000res 
+3.25086; time 0.042358
+100000000
+processors count 6
+x1=1.33333recive: x1= x2=1.666671.33333
+; x2=x1=1.666671.66667; process_id:  x2=1recive: x1=1.666672
+; x2=2; process_id: 2
+
+recive: x1=x1=2; x2=2.33333; process_id: 3
+2recive: x1= x2=2.666672.33333; x2=3; process_id: 5
+
+x1=2.33333 x2=2.66667
+x1=recive: x1=2.33333; x2=2.66667; process_id: 4
+2.66667 x2=3
+recive: x1=1; x2=1.33333; process_id: 0
+1000000000
+1000000000
+1000000000
+1000000000
+res 1000000000
+3.25086; time 0.341818
+1000000000
+processors count 6
+x1=1.33333 x2=1.66667
+x1=1.66667recive: x1= x2=1.33333; x2=1.66667; process_id: 1
+2
+x1=2recive: x1= x2=1.66667; x2=2; process_id: 2.333332
+
+x1=recive: x1=2.333332; x2=2.33333; process_id: 3
+ x2=2.66667
+x1=recive: x1=recive: x1=2.666672.33333; x2=2.666673; x2=2.66667; process_id: 4
+; process_id:  x2=3
+recive: x1=15; x2=
+1.33333; process_id: 0
+
+7 potok
+
+1000
+processors count 71000
+100010001000
+
+x1=
+
+1.28571 x2=1.57143recive: x1=recive: x1=
+1.571431.85714; x2=x1=; x2=2.14286; process_id: 3
+1.571431.85714 x2=; process_id: 1.857142
+
+x1=recive: x1=1.857142.71429 x2=; x2=2.142863
+; process_id: x1=62.14286
+ x2=2.42857
+x1=recive: x1=2.14286; x2=2.42857; process_id: 4
+2.42857 x2=2.71429
+x1=2.71429 x2=3
+recive: x1=1; x2=1.28571; process_id: 0
+1000
+recive: x1=1.28571; x2=1.57143; process_id: 1
+1000
+recive: x1=2.42857; x2=2.71429; process_id: 5
+100001000010000
+10000
+
+1000010000
+recive: x1=
+
+recive: x1=1.85714; x2=2.14286; process_id: 3
+res recive: x1=1.28571; x2=100000
+3.250851.571431.57143; process_id: 1
+recive: x1=; time ; x2=1.85714; x2=2.14286; process_id: 3
+0.0068771.85714
+; process_id: 100002recive: x1=
+
+2.42857processors count recive: x1=; x2=72.714292.71429
+; x2=; process_id: 1000000
+x1=351.28571; process_id: 
+ x2=6100000
+1.57143
+100000recive: x1=
+100000
+1.85714; x2=2.14286; process_id: 3
+x1=100000
+recive: x1=1.285711.57143
+; x2=1.57143; process_id: 1 x2=recive: x1=
+1.857141.57143recive: x1=
+; x2=2.42857x1=1.85714; x2=1.85714; process_id: 2.71429 x2=2; process_id: 2.14286
+5
+recive: x1=
+x1=2.714291000000
+2.14286; x2=1000000 x2=3
+2.42857; process_id: recive: x1=1.28571
+6; x2=1.57143; process_id: 1
+x1=
+recive: x1=recive: x1=10000002.428572.14286; x2=2.42857
+; x2=; process_id: 4
+1000000
+2.714292.42857recive: x1=; process_id:  x2=1.5714352.71429; x2=
+
+1.85714x1=; process_id: 2.714292 x2=
+3recive: x1=
+2.71429recive: x1=; x2=13; x2=; process_id: 1.285716; process_id: 
+0
+100000
+res 3.25086; time 0.000403
+100000
+processors count 7
+x1=1.28571 x2=1.57143
+x1=1.57143 x2=1.85714
+x1=1.85714 x2=2.14286
+x1=2.14286 x2=2.42857
+x1=recive: x1=2.14286; x2=2.42857; process_id: 4
+2.42857 x2=2.71429
+x1=2.71429 x2=3
+recive: x1=1; x2=1.28571; process_id: 010000000
+1000000010000000
+1000000
+
+
+10000000res 
+3.25086; time 0.000666
+1000000
+processors count 7
+x1=1.28571 x2=1.57143
+x1=1.57143 x2=1.85714
+x1=1.85714 x2=2.14286
+x1=2.14286 x2=2.42857
+x1=recive: x1=2.14286; x2=2.42857; process_id: 4
+2.42857 x2=2.71429
+x1=2.71429 x2=3
+recive: x1=1; x2=1.28571; process_id: 0
+1000000010000000
+
+res 3.25086; time 0.004898recive: x1=
+1.28571; x2=1.57143; process_id: 110000000
+
+recive: x1=recive: x1=recive: x1=processors count 1.571432.428571.85714; x2=2.14286; process_id: 3
+7; x2=; x2=1.857142.71429; process_id: ; process_id: 25
+
+recive: x1=2.71429; x2=3; process_id: 6
+
+x1=1.28571 x2=1.57143
+x1=1.57143 x2=1.85714
+x1=1.85714 x2=2.14286
+x1=2.14286 x2=2.42857
+x1=recive: x1=2.14286; x2=2.42857; process_id: 4
+2.42857 x2=2.71429
+x1=2.71429 x2=3
+recive: x1=1; x2=1.28571; process_id: 0
+100000000100000000
+
+100000000
+100000000
+100000000
+100000000res 
+3.25086; time 0.033727
+100000000
+processors count 7
+recive: x1=1.28571; x2=1.57143; process_id: x1=recive: x1=11.285711.57143
+ x2=; x2=recive: x1=1.571431.857141.85714; x2=2.14286; process_id: 3
+
+; process_id: recive: x1=x1=22.428571.57143
+; x2= x2=recive: x1=2.714291.857142.71429; process_id: 
+; x2=5x1=3
+1.85714; process_id:  x2=62.14286
+
+x1=2.14286 x2=2.42857
+x1=recive: x1=2.14286; x2=2.42857; process_id: 4
+2.42857 x2=2.71429
+x1=2.71429 x2=3
+recive: x1=1; x2=1.28571; process_id: 0
+1000000000
+1000000000
+1000000000
+10000000001000000000
+
+res 10000000003.25086
+; time 0.321049
+1000000000
+processors count 7
+x1=1.28571 x2=1.57143recive: x1=
+recive: x1=1.28571; x2=1.57143x1=1.57143; process_id: 1
+1.57143; x2= x2=1.857141.85714; process_id: 
+2x1=
+recive: x1=1.85714recive: x1=1.85714; x2=2.14286; process_id: 3
+ x2=2.428572.14286recive: x1=; x2=
+2.714292.71429x1=; x2=; process_id: 2.1428635 x2=; process_id: 
+2.428576
+
+x1=recive: x1=2.14286; x2=2.42857; process_id: 4
+2.42857 x2=2.71429
+x1=2.71429 x2=3
+recive: x1=1; x2=1.28571; process_id: 0
+res 3.25086; time 3.08787
+
+8 potok
+
+1000
+processors count 8100010001000
+1000
+x1=1000
+10001000
+
+
+
+
+1.25recive: x1= x2=recive: x1=1.251.51.5; x2=recive: x1=
+; x2=1.51.75x1=1.75; process_id: ; x2=1.5; process_id: 12 x2=2
+; process_id: 1.75
+recive: x1=3
+recive: x1=2.25
+x1=2.5; x2=recive: x1=1.75; x2=2.52.75 x2=2.75; process_id: ; x2=2; process_id: 53
+6
+; process_id: x1=
+72
+ x2=2.25
+x1=recive: x1=22.25 x2=2.5
+10000; x2=10000
+2.25
+; process_id: 4
+x1=2.5 x2=10000100002.75
+10000
+
+10000
+
+x1=2.75 x2=3
+recive: x1=1; x2=1.25; process_id: 0
+10000
+res 3.25085; time 0.002206
+10000
+processors count 8
+x1=1.25 x2=recive: x1=1.51.25
+; x2=x1=1.51.5; process_id:  x2=11.75recive: x1=
+recive: x1=
+1.5recive: x1=1.75x1=; x2=2.25; x2=1.751.75; x2=2 x2=; process_id: 2.5; process_id: 22; process_id: 3
+
+5
+x1=recive: x1=
+recive: x1=22.52.75 x2=2.25
+x1=2.25 x2=2.5100000recive: x1=; x2=100000
+; x2=
+2.75
+3x1=; process_id: recive: x1=; process_id: 2.5 x2=61.2572.75
+; x2=
+2; x2=2.25; process_id: 4
+1000001.5100000
+100000
+; process_id: 100000
+x1=
+1
+2.75recive: x1=
+ x2=1.53; x2=
+1.75recive: x1=1; x2=; process_id: 1.252; process_id: 
+recive: x1=0recive: x1=recive: x1=1.75
+2.52.25; x2=100000; x2=; x2=2
+2.752.5; process_id: res ; process_id: ; process_id: 33.2508665
+; time 
+
+recive: x1=0.00062110000002.75
+1000000
+; x2=10000010000003
+
+
+; process_id: processors count 1000000
+recive: x1=78recive: x1=1.25
+
+1.5; x2=1000000x1=; x2=1.5
+1.251.75; process_id: 1000000
+ x2=; process_id: 1recive: x1=1.52
+1.75
+
+recive: x1=; x2=x1=recive: x1=2.2521.52.5; x2= x2=; x2=2.51.752.75; process_id: 
+; process_id: 5x1=6
+1.75
+ x2=; process_id: 23
+
+x1=recive: x1=22.75; x2=3; process_id: 7
+ x2=2.25
+x1=recive: x1=2; x2=2.25; process_id: 4
+2.25 x2=2.5
+x1=2.5 x2=2.75
+x1=2.75 x2=3
+recive: x1=1; x2=1.25; process_id: 0
+1000000
+res 3.25086; time 0.000729
+1000000
+processors count 8
+x1=1.25 x2=1.5
+x1=1.5 x2=1.75
+x1=1.75 x2=2
+x1=2 x2=2.25
+x1=recive: x1=2; x2=2.25; process_id: 4
+2.25 x2=2.5
+x1=2.5 x2=2.75
+x1=2.75 x2=3
+recive: x1=1; x2=1.25; process_id: 0
+100000001000000010000000
+
+10000000
+
+100000001000000010000000
+
+
+res 3.25086; time 0.003068recive: x1=
+recive: x1=1.25100000001.5; x2=recive: x1=
+; x2=1.51.75processors count 1.75; process_id: ; x2=8; process_id: 12
+2
+; process_id: 
+recive: x1=3recive: x1=2.25
+2.5; x2=recive: x1=; x2=2.52.75; process_id: ; x2=53
+2.75; process_id: ; process_id: 67
+
+x1=1.25 x2=1.5
+x1=1.5 x2=1.75
+x1=1.75 x2=2
+x1=2 x2=2.25
+x1=recive: x1=2; x2=2.25; process_id: 4
+2.25 x2=2.5
+x1=2.5 x2=2.75
+x1=2.75 x2=3
+recive: x1=1; x2=1.25; process_id: 0
+100000000
+100000000
+100000000
+100000000
+100000000
+100000000
+100000000res 
+3.25086; time 0.037237
+100000000
+processors count 8
+x1=1.25 x2=1.5
+x1=1.5recive: x1= x2=1.251.75; x2=1.5
+; process_id: 1
+x1=1.75recive: x1= x2=1.52; x2=
+1.75x1=; process_id: 22recive: x1=
+ x2=1.752.25; x2=
+2x1=; process_id: 3
+recive: x1=2; x2=2.25; process_id: 4
+2.25 x2=2.5
+x1=2.5recive: x1= x2=2.252.75; x2=
+2.5; process_id: x1=5recive: x1=2.75 x2=recive: x1=3
+
+recive: x1=2.52.751; x2=; x2=; x2=2.7531.25; process_id: ; process_id: ; process_id: 706
+
+
+1000000000
+10000000001000000000
+
+1000000000
+1000000000
+1000000000
+res 3.25086; time 0.273604
+1000000000
+processors count 8recive: x1=
+x1=1.25; x2=1.5; process_id: 1
+1.25 x2=1.5
+x1=1.5 x2=1.751000000000
+
+recive: x1=x1=1.751.75recive: x1=; x2= x2=2.2522recive: x1=; x2=; process_id: 
+2.52.53x1=; x2=; process_id: 
+22.755recive: x1= x2=; process_id: 
+2.752.256; x2=
+
+3x1=recive: x1=2.252; x2=2.25; process_id: 4
+ x2=2.5
+x1=2.5 x2=; process_id: 2.757
+
+x1=2.75 x2=3
+recive: x1=1; x2=1.25; process_id: 0
+recive: x1=1.5; x2=1.75; process_id: 2
+res 3.25086; time 2.76973
+
+9 potok
+
+1000
+processors count 8100010001000
+1000
+x1=1000
+10001000
+
+
+
+
+1.25recive: x1= x2=recive: x1=1.251.51.5; x2=recive: x1=
+; x2=1.51.75x1=1.75; process_id: ; x2=1.5; process_id: 12 x2=2
+; process_id: 1.75
+recive: x1=3
+recive: x1=2.25
+x1=2.5; x2=recive: x1=1.75; x2=2.52.75 x2=2.75; process_id: ; x2=2; process_id: 53
+6
+; process_id: x1=
+72
+ x2=2.25
+x1=recive: x1=22.25 x2=2.5
+10000; x2=10000
+2.25
+; process_id: 4
+x1=2.5 x2=10000100002.75
+10000
+
+10000
+
+x1=2.75 x2=3
+recive: x1=1; x2=1.25; process_id: 0
+10000
+res 3.25085; time 0.002206
+10000
+processors count 8
+x1=1.25 x2=recive: x1=1.51.25
+; x2=x1=1.51.5; process_id:  x2=11.75recive: x1=
+recive: x1=
+1.5recive: x1=1.75x1=; x2=2.25; x2=1.751.75; x2=2 x2=; process_id: 2.5; process_id: 22; process_id: 3
+
+5
+x1=recive: x1=
+recive: x1=22.52.75 x2=2.25
+x1=2.25 x2=2.5100000recive: x1=; x2=100000
+; x2=
+2.75
+3x1=; process_id: recive: x1=; process_id: 2.5 x2=61.2572.75
+; x2=
+2; x2=2.25; process_id: 4
+1000001.5100000
+100000
+; process_id: 100000
+x1=
+1
+2.75recive: x1=
+ x2=1.53; x2=
+1.75recive: x1=1; x2=; process_id: 1.252; process_id: 
+recive: x1=0recive: x1=recive: x1=1.75
+2.52.25; x2=100000; x2=; x2=2
+2.752.5; process_id: res ; process_id: ; process_id: 33.2508665
+; time 
+
+recive: x1=0.00062110000002.75
+1000000
+; x2=10000010000003
+
+
+; process_id: processors count 1000000
+recive: x1=78recive: x1=1.25
+
+1.5; x2=1000000x1=; x2=1.5
+1.251.75; process_id: 1000000
+ x2=; process_id: 1recive: x1=1.52
+1.75
+
+recive: x1=; x2=x1=recive: x1=2.2521.52.5; x2= x2=; x2=2.51.752.75; process_id: 
+; process_id: 5x1=6
+1.75
+ x2=; process_id: 23
+
+x1=recive: x1=22.75; x2=3; process_id: 7
+ x2=2.25
+x1=recive: x1=2; x2=2.25; process_id: 4
+2.25 x2=2.5
+x1=2.5 x2=2.75
+x1=2.75 x2=3
+recive: x1=1; x2=1.25; process_id: 0
+1000000
+res 3.25086; time 0.000729
+1000000
+processors count 8
+x1=1.25 x2=1.5
+x1=1.5 x2=1.75
+x1=1.75 x2=2
+x1=2 x2=2.25
+x1=recive: x1=2; x2=2.25; process_id: 4
+2.25 x2=2.5
+x1=2.5 x2=2.75
+x1=2.75 x2=3
+recive: x1=1; x2=1.25; process_id: 0
+100000001000000010000000
+
+10000000
+
+100000001000000010000000
+
+
+res 3.25086; time 0.003068recive: x1=
+recive: x1=1.25100000001.5; x2=recive: x1=
+; x2=1.51.75processors count 1.75; process_id: ; x2=8; process_id: 12
+2
+; process_id: 
+recive: x1=3recive: x1=2.25
+2.5; x2=recive: x1=; x2=2.52.75; process_id: ; x2=53
+2.75; process_id: ; process_id: 67
+
+x1=1.25 x2=1.5
+x1=1.5 x2=1.75
+x1=1.75 x2=2
+x1=2 x2=2.25
+x1=recive: x1=2; x2=2.25; process_id: 4
+2.25 x2=2.5
+x1=2.5 x2=2.75
+x1=2.75 x2=3
+recive: x1=1; x2=1.25; process_id: 0
+100000000
+100000000
+100000000
+100000000
+100000000
+100000000
+100000000res 
+3.25086; time 0.037237
+100000000
+processors count 8
+x1=1.25 x2=1.5
+x1=1.5recive: x1= x2=1.251.75; x2=1.5
+; process_id: 1
+x1=1.75recive: x1= x2=1.52; x2=
+1.75x1=; process_id: 22recive: x1=
+ x2=1.752.25; x2=
+2x1=; process_id: 3
+recive: x1=2; x2=2.25; process_id: 4
+2.25 x2=2.5
+x1=2.5recive: x1= x2=2.252.75; x2=
+2.5; process_id: x1=5recive: x1=2.75 x2=recive: x1=3
+
+recive: x1=2.52.751; x2=; x2=; x2=2.7531.25; process_id: ; process_id: ; process_id: 706
+
+
+1000000000
+10000000001000000000
+
+1000000000
+1000000000
+1000000000
+res 3.25086; time 0.273604
+1000000000
+processors count 8recive: x1=
+x1=1.25; x2=1.5; process_id: 1
+1.25 x2=1.5
+x1=1.5 x2=1.751000000000
+
+recive: x1=x1=1.751.75recive: x1=; x2= x2=2.2522recive: x1=; x2=; process_id: 
+2.52.53x1=; x2=; process_id: 
+22.755recive: x1= x2=; process_id: 
+2.752.256; x2=
+
+3x1=recive: x1=2.252; x2=2.25; process_id: 4
+ x2=2.5
+x1=2.5 x2=; process_id: 2.757
+
+x1=2.75 x2=3
+recive: x1=1; x2=1.25; process_id: 0
+recive: x1=1.5; x2=1.75; process_id: 2
+res 3.25086; time 2.76973
+
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+processors count 91000recive: x1=
+x1=1.22222
+recive: x1=; x2=recive: x1=1.22222 x2=1.44444
+1.444441.444441.66667x1=; x2=; process_id: ; x2=1.44444 x2=1.66667
+1.6666711.88889x1=; process_id: 
+; process_id: 1.66667 x2=1.888892recive: x1=3
+2.11111
+
+recive: x1=; x2=recive: x1=x1=2.33333; x2=2.333331.88889 x2=2.55556; process_id: 6; process_id: 2.11111
+x1=
+52.11111 x2=
+2.33333
+recive: x1=1.88889; x2=2.11111; process_id: 4
+x1=2.33333 x2=2.55556
+x1=2.55556 x2=2.77778
+x1=2.77778 x2=3
+recive: x1=1; x2=1.22222; process_id: 0
+1000
+recive: x1=2.77778; x2=3; process_id: 8
+2.55556; x2=2.77778; process_id: 7
+100001000010000
+
+10000
+1000010000
+10000
+
+
+10000
+res 3.25085; time 0.023868
+recive: x1=recive: x1=recive: x1=10000
+1.444441.22222recive: x1=processors count 9
+x1=1.22222 x2=1.44444; x2=recive: x1=1.66667; x2=1.88889; process_id: 3
+1.666672.11111; x2=2.33333; process_id: 5
+
+x1=; process_id: ; x2=2.555561.44444 x2=1.66667
+21.44444; x2=x1=recive: x1=; process_id: 2.777781.66667 x2=
+1; process_id: 1.88889
+2.33333
+7x1=1.88889; x2=
+ x2=2.11111
+2.55556x1=2.11111; process_id:  x2=2.333336
+
+x1=recive: x1=2.33333 x2=2.55556
+x1=2.55556 x2=2.77778
+x1=2.77778 x2=3
+recive: x1=1; x2=1.22222; process_id: 0
+1.88889; x2=2.11111; process_id: 4
+recive: x1=2.77778; x2=3; process_id: 100000
+8100000100000100000
+
+100000
+
+100000100000
+
+
+100000
+res 3.25086; time 0.035245
+100000
+processors count 9
+x1=recive: x1=1.222221.22222 x2=recive: x1=; x2=1.444441.444441.44444recive: x1=
+; x2=; process_id: 1.66667x1=1.666671; x2=1.44444; process_id: 
+1.88889 x2=2recive: x1=; process_id: 1.66667
+2.111113
+recive: x1=; x2=
+x1=2.333332.33333recive: x1=1.66667; x2=; process_id: 2.55556 x2=2.55556; x2=1.88889; process_id: 2.77778
+6x1=
+5; process_id: 1.88889
+7
+ x2=2.11111
+x1=recive: x1=2.111111.88889; x2=2.11111; process_id: 4
+ x2=2.33333
+x1=2.33333 x2=2.55556
+x1=2.55556 x2=2.77778
+x1=2.77778 x2=3
+recive: x1=1; x2=1.22222; process_id: 0
+recive: x1=2.77778; x2=3; process_id: 8
+100000010000001000000
+10000001000000
+10000001000000
+
+
+
+
+1000000
+res 3.25086; time 0.019771
+1000000
+processors count 9
+x1=1.22222 x2=1.44444
+x1=1.44444 x2=recive: x1=1.666671.22222
+; x2=x1=1.44444; process_id: 1.66667recive: x1=1 x2=1.44444
+1.88889; x2=
+1.66667x1=; process_id: 1.888892recive: x1= x2=
+1.666672.11111; x2=
+1.88889x1=; process_id: recive: x1=1.88889; x2=2.11111; process_id: 43
+
+2.11111recive: x1=recive: x1= x2=recive: x1=2.111112.555562.333332.33333; x2=; x2=
+; x2=2.333332.77778x1=2.55556; process_id: ; process_id: 2.33333; process_id: 57 x2=6
+
+2.55556
+
+x1=2.55556 x2=2.77778
+x1=2.77778 x2=3
+recive: x1=1; x2=1.22222; process_id: 0
+recive: x1=2.77778; x2=3; process_id: 8
+10000000
+1000000010000000
+10000000
+
+10000000
+10000000
+10000000res 10000000
+3.25086; time 0.010467
+10000000
+processors count 9
+x1=recive: x1=1.222221.22222 x2=; x2=1.44444recive: x1=1.44444
+1.44444; process_id: x1=; x2=11.444441.66667
+recive: x1= x2=; process_id: 1.66667; x2=1.88889; process_id: 3
+1.666672recive: x1=
+
+2.11111x1=recive: x1=; x2=1.666672.333332.33333recive: x1= x2=; x2=; process_id: 2.555561.888892.555565; x2=
+; process_id: 
+2.77778x1=6; process_id: 1.88889
+7 x2=
+2.11111
+x1=2.11111 x2=2.33333
+x1=2.33333 x2=2.55556
+x1=2.55556 x2=2.77778
+x1=2.77778 x2=3
+recive: x1=recive: x1=2.77778; x2=3; process_id: 8
+1; x2=1.22222; process_id: 0
+
+recive: x1=1.88889; x2=2.11111; process_id: 4
+100000000100000000100000000
+
+
+100000000
+100000000
+100000000
+100000000res 100000000
+3.25086; time 0.059126
+100000000
+processors count 9
+x1=recive: x1=recive: x1=recive: x1=1.444441.222221.66667; x2=1.88889; process_id: 3
+; x2=; x2=1.222221.666671.44444 x2=; process_id: ; process_id: 1.4444421recive: x1=
+
+
+2.55556x1=recive: x1=recive: x1=; x2=1.444442.333332.77778 x2=; x2=; process_id: 1.666672.555567
+; process_id: 
+x1=61.66667
+ x2=1.88889
+x1=1.88889 x2=2.11111
+x1=2.11111 x2=2.33333
+x1=2.33333 x2=2.55556
+x1=2.55556 x2=2.77778
+x1=2.77778 x2=3
+recive: x1=recive: x1=1; x2=1.22222; process_id: 2.777780
+
+recive: x1=1.88889; x2=2.11111; process_id: 4
+; x2=2.111113; x2=; process_id: 2.333338; process_id: 
+5
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+res 10000000003.25086; time 0.284357
+1000000000
+processors count 9
+x1=1.22222 x2=1.44444
+
+recive: x1=x1=1.222221.44444recive: x1=; x2= x2=1.444441.44444recive: x1=1.66667; x2=; process_id: 1.66667; x2=1.88889; process_id: 3
+
+1.666671x1=; process_id: 
+recive: x1=1.666672recive: x1=2.55556 x2=
+2.11111; x2=1.88889recive: x1=; x2=2.77778
+2.33333; x2=2.33333; process_id: x1=2.55556; process_id: 71.88889; process_id: 6
+5
+ x2=
+2.11111
+x1=2.11111 x2=2.33333
+x1=2.33333 x2=2.55556
+x1=2.55556 x2=2.77778
+x1=2.77778 x2=3
+recive: x1=recive: x1=2.777781; x2=1.22222; process_id: 0
+; x2=3; process_id: 8
+recive: x1=1.88889; x2=2.11111; process_id: 4
+res 3.25086; time 2.2679
+
+
+10 potok
+
+
+10001000
+
+1000
+1000
+1000
+1000
+10001000
+
+processors count 10
+x1=1.2 x2=1.4
+x1=recive: x1=1000
+recive: x1=1.41.4recive: x1=1.6 x2=; x2=1.2; x2=1.4; x2=1.61.6; process_id: 1
+1.8
+; process_id: ; process_id: x1=231.6
+
+ x2=1.8
+x1=1.8 x2=2
+x1=2 x2=2.2
+1000
+recive: x1=1.8; x2=2; process_id: 4
+x1=2.2recive: x1= x2=2; x2=2.2; process_id: 2.45
+
+x1=2.4 x2=2.6recive: x1=
+2.2; x2=2.4; process_id: 6
+x1=2.6 x2=recive: x1=2.8
+x1=2.8 x2=2.43
+; x2=2.6; process_id: 7
+recive: x1=1; x2=1.2recive: x1=; process_id: 0
+2.8; x2=3; process_id: 9
+recive: x1=2.6; x2=2.8; process_id: 8
+10000
+10000100001000010000
+
+1000010000
+
+
+
+10000
+res 10000
+3.25085; time 0.038198
+10000
+processors count 10
+x1=1.2 x2=1.4
+x1=recive: x1=1.41.4 x2=1.6; x2=
+x1=recive: x1=1.61.6 x2=; process_id: 1.61.8; x2=
+21.8x1=1.8; process_id:  x2=
+23
+
+x1=recive: x1=recive: x1=1.82; x2=2.2; process_id: 5
+; x2=22; process_id: 4
+recive: x1= x2=2.22.2; x2=
+x1=2.42.2; process_id:  x2=recive: x1=2.4
+2.4x1=62.4
+; x2= x2=2.62.6; process_id: 
+recive: x1=7x1=2.8
+2.6; x2= x2=32.8; process_id: 
+9x1=
+2.8 x2=3
+recive: x1=1; x2=1.2; process_id: 0
+recive: x1=1.2; x2=1.4; process_id: 1
+recive: x1=2.6; x2=2.8; process_id: 8
+100000
+100000100000100000100000
+100000
+100000
+
+
+
+100000
+100000
+res 3.25086; time 0.024985
+100000
+processors count 10
+x1=1.2 x2=1.4
+x1=1.4 x2=1.6
+x1=1.6recive: x1= x2=1.41.8
+; x2=x1=recive: x1=1.81.6 x2=1.62; x2=
+; process_id: 1.8x1=2recive: x1=; process_id: 231.8; x2=
+2; process_id: 
+4
+ x2=2.2recive: x1=
+x1=22.2 x2=; x2=2.4
+2.2x1=2.4recive: x1= x2=2.2; process_id: 2.65
+; x2=2.4
+recive: x1=2.4; process_id: 6x1=2.6; x2= x2=
+2.62.8
+; process_id: x1=72.8
+ x2=recive: x1=32.8
+; x2=recive: x1=31; process_id: ; x2=91.2
+; process_id: 0
+recive: x1=2.6; x2=2.8; process_id: 8
+recive: x1=1.2; x2=1.4; process_id: 1
+100000010000001000000
+
+1000000
+1000000
+
+10000001000000
+1000000
+
+1000000
+res 3.25086; time 0.035709
+1000000
+processors count 10
+x1=1.2 x2=1.4
+x1=1.4 x2=1.6
+x1=1.6 x2=recive: x1=1.81.4
+x1=; x2=1.8 x2=2recive: x1=
+1.61.6x1=recive: x1=; x2=; process_id: 1.8; process_id: 22 x2=2.2
+31.8
+recive: x1=x1=2.2 x2=2.4
+x1=
+2recive: x1=2.2; x2=2.4; process_id: 6
+; x2=2.22.4 x2=2.6
+x1=2.6 x2=2.8
+x1=2.8 x2=3recive: x1=
+recive: x1=; process_id: 1; x2=1.2; process_id: 0
+5recive: x1=2.62.4; x2=
+2.8recive: x1=; process_id: 2.8; x2=; x2=82.6
+3; process_id: 9; process_id: 
+7
+recive: x1=1.2; x2=1.4; process_id: 1
+; x2=2; process_id: 4
+100000001000000010000000
+
+10000000
+10000000
+10000000
+1000000010000000
+
+
+res 10000000
+3.25086; time 0.035988
+10000000
+processors count 10
+x1=1.2 x2=1.4
+x1=1.4 x2=1.6
+x1=1.6 x2=1.8
+x1=1.8 x2=2recive: x1=
+1.6x1=2; x2=1.8recive: x1=; process_id:  x2=3recive: x1=1.8; x2=2
+; process_id: 4
+2.2
+1.4x1=2.2; x2= x2=2.4recive: x1=1.6
+2x1=; process_id: 2.4; x2= x2=2.62.22
+; process_id: recive: x1=52.2; x2=2.4; process_id: 6
+
+x1=2.6 x2=recive: x1=2.42.8
+
+x1=; x2=2.82.6 x2=; process_id: 37
+recive: x1=
+recive: x1=2.81; x2=; x2=31.2; process_id: ; process_id: 09
+
+recive: x1=1.2; x2=1.4; process_id: 1
+recive: x1=2.6; x2=2.8; process_id: 8
+100000000
+100000000
+100000000
+100000000
+100000000
+100000000
+100000000
+100000000res 100000000
+
+3.25086; time recive: x1=0.0561391.2
+; x2=1000000001.4
+; process_id: processors count 110
+
+x1=recive: x1=1.21.6 x2=; x2=1.4recive: x1=1.8
+; process_id: x1=31.4
+ x2=recive: x1=1.4; x2=1.6; process_id: 2
+1.6recive: x1=recive: x1=recive: x1=
+2.22.82.4x1=; x2=; x2=; x2=1.62.432.6 x2=; process_id: ; process_id: ; process_id: 1.8697
+
+
+
+x1=1.8 x2=2
+x1=2 x2=2.2
+x1=2.2 x2=2.4
+x1=2.4 x2=2.6
+x1=2.6 x2=2.8
+x1=recive: x1=2.6; x2=2.82.8; process_id: 8
+ x2=3
+recive: x1=1; x2=1.2; process_id: 0
+2; x2=2.2; process_id: 5
+recive: x1=1.8; x2=2; process_id: 4
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+res 1000000000
+3.25086; time 0.217408
+1000000000
+processors count 10
+x1=recive: x1=1.2; x2=1.4; process_id: 1.21recive: x1=1.6 x2=
+; x2=1.8; process_id: 3
+1.4
+x1=1.4 x2=1.6recive: x1=
+recive: x1=1.4; x2=1.6; process_id: 2
+recive: x1=x1=21.6recive: x1=; x2= x2=2.22.21.8; x2=; process_id: 
+2.45x1=; process_id: 
+1.86 x2=
+2
+x1=2 x2=2.2
+x1=2.2 x2=2.4
+x1=2.4 x2=2.6
+x1=2.6 x2=2.8
+x1=recive: x1=2.82.6; x2=2.8; process_id:  x2=8
+3
+recive: x1=1; x2=1.2; process_id: 0
+recive: x1=2.4; x2=2.6; process_id: 7
+recive: x1=1.8; x2=2; process_id: 4
+2.8; x2=3; process_id: 9
+res 3.25086; time 2.59644
+
+11 potok
+
+1000
+processors count 11
+x1=1000
+1.18182 x2=1.36364
+1000
+1000
+1000
+x1=1.36364recive: x1= x2=1.181821.54545
+; x2=1.363641000
+; process_id: 1
+1000
+1000
+1000
+x1=recive: x1=1.54545 x2=1.36364; x2=1.727271.54545; process_id: 
+2
+x1=1.72727 x2=recive: x1=1.909091.54545; x2=1.72727; process_id: 3
+
+x1=recive: x1=1.72727; x2=1.90909; process_id: 4
+1.90909 x2=2.09091
+1000
+1000
+x1=2.09091recive: x1= x2=1.909092.27273; x2=
+2.09091; process_id: 5
+x1=2.27273recive: x1=2.09091; x2= x2=2.27273; process_id: 6
+2.45455
+x1=2.45455recive: x1= x2=2.272732.63636; x2=
+2.45455x1=; process_id: 2.636367 x2=
+2.81818
+recive: x1=2.45455; x2=2.63636; process_id: 8
+x1=2.81818 x2=recive: x1=32.63636
+; x2=2.81818; process_id: 9
+recive: x1=1recive: x1=2.81818; x2=; x2=3; process_id: 10
+1.18182; process_id: 0
+10000
+1000010000
+
+100001000010000
+10000
+
+
+10000
+10000
+res 10000
+3.25085; time 0.044027
+10000
+processors count 11recive: x1=
+1.18182recive: x1=x1=; x2=1.363641.181821.36364; x2= x2=; process_id: 1.545451.36364recive: x1=1; process_id: 
+1.54545
+2x1=; x2=
+1.363641.72727 x2=; process_id: 1.545453
+
+x1=1.54545 x2=1.72727
+x1=1.72727 x2=1.90909
+x1=1.90909recive: x1=recive: x1= x2=2.272732.63636; x2=2.81818; process_id: recive: x1=2.09091; x2=9
+2.81818; x2=3; process_id: 10
+
+2.45455x1=; process_id: 2.090917 x2=
+2.27273
+x1=2.27273 x2=2.45455
+x1=2.45455 x2=2.63636
+x1=recive: x1=2.45455; x2=2.63636; process_id: 8
+2.63636 x2=2.81818
+x1=2.81818 x2=3
+recive: x1=1; x2=1.18182; process_id: 0
+recive: x1=1.72727; x2=1.90909; process_id: 4
+recive: x1=1.90909; x2=2.09091; process_id: 5
+recive: x1=2.09091; x2=2.27273; process_id: 6
+100000
+100000
+100000100000
+
+100000
+100000
+100000
+100000
+100000
+res 100000
+3.25086; time 0.023254
+100000
+processors count 11
+recive: x1=x1=1.181821.18182; x2=recive: x1= x2=1.363641.363641.36364; process_id: ; x2=
+11.54545x1=
+; process_id: 1.36364recive: x1=2 x2=1.54545
+1.54545; x2=
+1.72727x1=; process_id: 1.545453 x2=
+1.72727
+x1=1.72727 x2=1.90909
+recive: x1=recive: x1=recive: x1=x1=2.272731.90909recive: x1=recive: x1=1.72727; x2=; x2=; x2=2.818181.90909; process_id: 4
+2.454552.09091; x2=1.90909; process_id: ; process_id: 3 x2=75; process_id: 2.09091
+
+10
+
+x1=2.09091 x2=2.27273
+x1=2.27273 x2=2.45455
+x1=2.45455 x2=2.63636
+x1=2.63636 x2=2.81818
+x1=2.81818 x2=3
+recive: x1=1; x2=1.18182; process_id: 0
+recive: x1=2.63636; x2=2.81818; process_id: 9
+2.09091; x2=2.27273; process_id: 6
+recive: x1=2.45455; x2=2.63636; process_id: 8
+1000000
+1000000
+100000010000001000000
+
+
+1000000
+1000000
+1000000
+1000000
+1000000
+res 3.25086; time 0.028275
+1000000
+processors count 11
+x1=1.18182 x2=1.36364
+x1=1.36364 x2=1.54545recive: x1=
+1.18182; x2=x1=recive: x1=1.545451.36364 x2=; process_id: 1.727271.363641; x2=
+1.54545
+x1=; process_id: 2
+1.72727recive: x1= x2=1.54545; x2=1.727271.90909; process_id: 
+3
+x1=recive: x1=1.72727; x2=1.90909; process_id: 4
+1.90909 x2=2.09091
+x1=2.09091 x2=2.27273
+x1=recive: x1=2.272732.09091 x2=; x2=2.45455
+2.27273x1=2.45455recive: x1=; process_id: 2.27273; x2=6 x2=
+2.636362.45455
+; process_id: x1=72.63636
+ x2=2.81818
+x1=recive: x1=2.81818 x2=2.636363
+; x2=recive: x1=2.818181; process_id: ; x2=91.18182; process_id: 
+0
+recive: x1=2.45455; x2=2.63636; process_id: 8
+recive: x1=2.81818; x2=3; process_id: 10
+recive: x1=1.90909; x2=2.09091; process_id: 5
+1000000010000000
+
+10000000
+100000001000000010000000
+1000000010000000
+
+
+10000000
+
+10000000
+res 3.25086; time 0.025965
+10000000
+processors count 11
+x1=1.18182 x2=1.36364
+x1=1.36364recive: x1= x2=1.545451.18182; x2=
+x1=1.36364; process_id: recive: x1=1.54545 x2=11.36364; x2=1.72727
+1.54545; process_id: 
+2
+x1=1.72727recive: x1= x2=1.909091.54545
+; x2=1.72727x1=; process_id: 31.90909
+ x2=2.09091
+x1=2.09091recive: x1= x2=1.90909; x2=2.090912.27273; process_id: 5
+
+x1=2.27273 x2=2.45455
+x1=2.45455recive: x1= x2=2.272732.63636; x2=
+2.45455; process_id: x1=7recive: x1=2.45455; x2=2.63636; process_id: 8
+2.63636
+ x2=2.81818
+x1=2.81818 x2=3
+recive: x1=1recive: x1=; x2=2.81818; x2=1.181823; process_id: ; process_id: 100
+
+recive: x1=2.09091; x2=2.27273; process_id: 6
+recive: x1=1.72727; x2=1.90909; process_id: 4
+recive: x1=2.63636; x2=2.81818; process_id: 9
+100000000
+100000000
+100000000
+100000000
+100000000
+100000000
+100000000
+100000000100000000
+100000000
+
+res 3.25086; time 0.048855
+100000000
+processors count 11recive: x1=recive: x1=recive: x1=
+1.545451.18182; x2=1.36364; process_id: 1
+1.36364x1=; x2=recive: x1=; x2=1.181821.727271.909091.54545 x2=; process_id: ; x2=; process_id: 1.3636432.090912
+
+; process_id: 
+x1=recive: x1=5recive: x1=1.363642.27273
+2.09091 x2=; x2=recive: x1=; x2=1.545452.454552.636362.27273
+; process_id: ; x2=; process_id: x1=72.8181861.54545
+; process_id: 
+ x2=91.72727
+
+x1=1.72727 x2=1.90909
+x1=1.90909 x2=2.09091
+x1=2.09091 x2=2.27273
+x1=2.27273 x2=2.45455
+x1=2.45455 x2=2.63636
+x1=recive: x1=2.63636 x2=2.81818
+2.45455x1=2.81818 x2=3; x2=2.63636; process_id: 8
+
+recive: x1=1; x2=1.18182; process_id: 0
+recive: x1=2.81818; x2=3; process_id: 10
+recive: x1=1.72727; x2=1.90909; process_id: 4
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+res 3.25086; time 0.344094
+1000000000
+processors count 11recive: x1=1.36364; x2=1.54545; process_id: 2
+
+x1=1.18182recive: x1= x2=1.54545; x2=1.72727; process_id: 3
+recive: x1=1.36364recive: x1=
+recive: x1=1.18182; x2=1.36364x1=2.272731.909091.36364; x2=; process_id: 1
+ x2=2.45455; x2=1.545452.09091
+; process_id: x1=51.54545
+ x2=1.72727
+x1=1.72727 x2=1.90909
+x1=1.90909recive: x1= x2=2.09091
+1.72727x1=2.09091 x2=2.27273
+x1=2.27273 x2=2.45455
+x1=; x2=1.90909; process_id: 4
+2.45455 x2=2.63636
+x1=2.63636 x2=2.81818
+x1=2.81818 x2=3
+recive: x1=1; process_id: recive: x1=; x2=72.818181.18182
+; x2=; process_id: 30recive: x1=
+; process_id: 2.0909110
+; x2=2.27273; process_id: 6
+recive: x1=2.45455; x2=2.63636; process_id: 8
+recive: x1=2.63636; x2=2.81818; process_id: 9
+res 3.25086; time 3.34189
+
+12 potok
+
+1000
+1000
+10001000
+
+1000
+processors count 121000
+x1=
+1.16667 x2=1.33333recive: x1=
+1.16667x1=; x2=1.333331.33333 x2=; process_id: 1.5recive: x1=1
+1.33333; x2=1.5
+x1=; process_id: 2
+1.5 x2=1.66667
+1000
+1000
+1000x1=
+1.66667recive: x1= x2=1.51.83333; x2=
+1.66667x1=; process_id: 1.833333 x2=
+2
+1000
+10001000recive: x1=1.66667; x2=1.83333; process_id: 4
+
+recive: x1=
+x1=recive: x1=2.16667recive: x1=22; x2=1.83333 x2=; x2=2.33333; x2=2.166672.16667; process_id: 2
+; process_id: 7; process_id: x1=
+52.16667
+ x2=recive: x1=2.333332.5
+6; x2=
+2.66667; process_id: 9
+x1=2.33333 x2=2.5
+x1=2.5 x2=2.66667
+x1=2.66667 x2=2.83333
+x1=2.83333recive: x1= x2=2.66667; x2=2.83333; process_id: 103
+
+recive: x1=1recive: x1=2.83333; x2=; x2=1.166673; process_id: ; process_id: 011
+
+recive: x1=2.33333; x2=2.5; process_id: 8
+10000
+1000010000
+
+10000
+10000
+10000
+1000010000
+10000
+
+10000
+10000res 
+3.25085; time 0.045617
+10000
+processors count 12
+x1=1.16667 x2=1.33333
+x1=1.33333 x2=1.5
+x1=1.5recive: x1= x2=1.33333; x2=1.5; process_id: 2
+1.66667
+x1=1.66667 x2=recive: x1=1.16667; x2=1.33333; process_id: 1
+1.83333
+x1=1.83333 x2=2
+x1=2 x2=2.16667
+x1=2.16667 x2=recive: x1=22.33333
+; x2=2.16667; process_id: x1=6recive: x1=1.66667; x2=1.83333; process_id: 4
+recive: x1=
+2.16667; x2=2.33333; process_id: 72.33333
+ x2=2.5
+x1=2.5 x2=2.66667
+x1=recive: x1=2.52.66667; x2= x2=2.666672.83333; process_id: 
+9x1=
+2.83333 x2=3
+recive: x1=1recive: x1=; x2=2.83333; x2=31.16667; process_id: 11; process_id: 
+0
+recive: x1=2.66667; x2=2.83333; process_id: 10
+recive: x1=1.5; x2=1.66667; process_id: 3
+recive: x1=1.83333; x2=2; process_id: 5
+recive: x1=2.33333; x2=2.5; process_id: 8
+100000100000100000
+100000100000
+100000
+
+100000
+
+100000100000
+
+100000
+
+res 1000003.25086
+; time 0.036864recive: x1=recive: x1=
+recive: x1=recive: x1=1.1666710000021.5; x2=
+; x2=; x2=1.33333processors count 2.166671.66667; process_id: 12; process_id: ; process_id: 1
+63
+x1=
+
+recive: x1=1.16667recive: x1=recive: x1=2.5 x2=2.666672.83333; x2=1.33333; x2=; x2=2.66667
+2.833333; process_id: x1=; process_id: ; process_id: 91.3333311 x2=
+1.5
+10
+x1=
+1.5 x2=1.66667
+x1=1.66667 x2=1.83333
+x1=recive: x1=1.66667; x2=1.83333; process_id: 4
+1.83333 x2=2
+x1=2 x2=2.16667
+x1=2.16667 x2=2.33333
+x1=2.33333 x2=2.5
+x1=2.5 x2=2.66667
+x1=2.66667 x2=2.83333
+x1=2.83333 x2=3
+recive: x1=1; x2=1.16667; process_id: 0
+recive: x1=1.83333; x2=2; process_id: 5
+recive: x1=1.33333; x2=1.5; process_id: 2
+2.16667; x2=2.33333; process_id: 7
+recive: x1=2.33333; x2=2.5; process_id: 8
+1000000100000010000001000000
+
+
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+res 3.25086; time 0.026262
+1000000
+processors count 12
+x1=1.16667 x2=1.33333
+recive: x1=
+1.16667x1=recive: x1=; x2=1.33333recive: x1=1.33333 x2=2; process_id: 1.5; x2=1
+2.16667
+x1=; process_id: recive: x1=1.562.5 x2=; x2=1.66667
+2.66667
+; process_id: recive: x1=91.33333; x2=1.5; process_id: 2
+2.16667
+; x2=x1=1.66667 x2=2.333331.83333; process_id: 
+7x1=recive: x1=recive: x1=1.666672.83333; x2=1.83333; process_id: 4; x2=
+31.83333; process_id:  x2=112
+
+x1=2 x2=2.16667
+x1=2.16667 x2=2.33333
+x1=
+2.33333 x2=2.5
+x1=2.5 x2=2.66667
+x1=2.66667 x2=2.83333
+x1=2.83333 x2=3
+recive: x1=1; x2=1.16667; process_id: 0
+recive: x1=recive: x1=1.83333; x2=2; process_id: 5
+1.5; x2=1.66667; process_id: 3
+recive: x1=2.66667; x2=2.83333; process_id: 10
+recive: x1=2.33333; x2=2.5; process_id: 8
+1000000010000000
+10000000
+100000001000000010000000
+10000000
+
+
+10000000
+10000000
+10000000
+
+10000000
+res 3.25086; time 0.023641
+10000000
+processors count 12
+x1=1.16667 x2=recive: x1=1.333331.5
+; x2=x1=1.66667recive: x1=1.33333; process_id: recive: x1= x2=recive: x1=31.166671.5recive: x1=
+; x2=
+1.333331.33333x1=; x2=; process_id: 1.51.51 x2=; process_id: 
+1.666672recive: x1=
+recive: x1=2.5x1=2.66667; x2=2.83333; process_id: 10
+; x2=1.66667
+2.66667 x2=; process_id: 1.833339
+
+x1=recive: x1=1.66667; x2=1.83333; process_id: 4
+1.83333 x2=2
+x1=2recive: x1= x2=2.833332.16667; x2=
+3x1=; process_id: 2.1666711 x2=
+2.33333
+x1=2.33333 x2=2.5
+x1=2.5 x2=2.66667
+x1=2.66667 x2=2.83333
+x1=2.83333 x2=3
+recive: x1=1; x2=1.16667; process_id: 0
+1.83333; x2=2; process_id: 5
+2; x2=2.16667; process_id: 6
+recive: x1=2.16667; x2=2.33333; process_id: 7
+recive: x1=2.33333; x2=2.5; process_id: 8
+100000000
+100000000
+100000000
+100000000100000000
+100000000
+100000000
+100000000
+100000000
+
+100000000
+100000000
+res 3.25086; time 0.03937
+100000000
+processors count 12
+x1=1.16667 x2=1.33333
+x1=1.33333 x2=1.5
+x1=1.5recive: x1= x2=1.66667
+x1=1.66667 x2=1.83333
+x1=1.83333 x2=2
+x1=recive: x1=21.16667 x2=; x2=2.166671.33333
+; process_id: x1=recive: x1=12.166672
+ x2=; x2=recive: x1=2.333332.166672.16667
+; process_id: ; x2=recive: x1=62.333331.66667
+; process_id: ; x2=71.83333
+; process_id: 4
+recive: x1=2.5; x2=recive: x1=2.66667x1=2.66667; process_id: 2.33333; x2=9 x2=2.83333recive: x1=
+2.5; process_id: recive: x1=
+101.5x1=
+; x2=2.51.66667 x2=; process_id: 2.666673
+
+x1=2.66667 x2=2.83333
+x1=2.83333 x2=3
+recive: x1=1; x2=1.16667; process_id: 0
+recive: x1=2.33333; x2=2.5; process_id: 8
+2.83333recive: x1=; x2=1.833333; x2=; process_id: 211; process_id: 
+5
+1.33333; x2=1.5; process_id: 2
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+res 3.25086; time 0.268762
+1000000000
+processors count 12
+recive: x1=x1=1.166671.16667 x2=1.33333; x2=
+x1=1.333331.33333; process_id:  x2=11.5
+
+x1=1.5 x2=1.66667
+x1=recive: x1=1.66667 x2=1.83333recive: x1=
+x1=1.833331.83333 x2=; x2=22
+x1=; process_id: 2 x2=2.166675
+x1=2.16667recive: x1=
+ x2=2.333332
+; x2=x1=2.166672.33333; process_id:  x2=recive: x1=62.16667
+; x2=2.33333; process_id: 2.5
+x1=recive: x1=2.52.33333; x2=2.5; process_id: 8
+ x2=2.66667
+x1=2.66667 x2=2.833337
+
+x1=2.83333recive: x1= x2=3
+recive: x1=recive: x1=2.833331; x2=; x2=31.16667; process_id: ; process_id: 110
+
+2.66667; x2=2.83333; process_id: 10
+recive: x1=1.5; x2=1.66667; process_id: 3
+recive: x1=2.5; x2=2.66667; process_id: 9
+1.33333; x2=1.5; process_id: 2
+recive: x1=1.66667; x2=1.83333; process_id: 4
+res 3.25086; time 1.87478

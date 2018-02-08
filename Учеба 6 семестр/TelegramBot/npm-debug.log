@@ -1,0 +1,624 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Soft\\NodeJs\\node.exe',
+1 verbose cli   'D:\\Soft\\NodeJs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'cache',
+1 verbose cli   'clean',
+1 verbose cli   '-f' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 warn using --force I sure hope you know what you are doing.
+5 silly ls normalized .
+6 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\_locks is being purged
+7 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\_locks
+8 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\ajv is being purged
+9 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\ajv
+10 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\array.prototype.findindex is being purged
+11 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\array.prototype.findindex
+12 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\asn1 is being purged
+13 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\asn1
+14 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\assert-plus is being purged
+15 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\assert-plus
+16 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\asynckit is being purged
+17 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\asynckit
+18 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\aws-sign2 is being purged
+19 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\aws-sign2
+20 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\aws4 is being purged
+21 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\aws4
+22 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\bcrypt-pbkdf is being purged
+23 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\bcrypt-pbkdf
+24 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\bl is being purged
+25 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\bl
+26 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\bluebird is being purged
+27 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\bluebird
+28 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\boolbase is being purged
+29 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\boolbase
+30 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\boom is being purged
+31 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\boom
+32 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\buffer-shims is being purged
+33 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\buffer-shims
+34 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\caseless is being purged
+35 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\caseless
+36 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\cheerio is being purged
+37 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\cheerio
+38 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\clone is being purged
+39 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\clone
+40 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\co is being purged
+41 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\co
+42 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\combined-stream is being purged
+43 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\combined-stream
+44 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\core-util-is is being purged
+45 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\core-util-is
+46 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\cryptiles is being purged
+47 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\cryptiles
+48 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\css-select is being purged
+49 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\css-select
+50 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\css-what is being purged
+51 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\css-what
+52 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\dashdash is being purged
+53 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\dashdash
+54 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\debug is being purged
+55 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\debug
+56 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\define-properties is being purged
+57 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\define-properties
+58 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\delayed-stream is being purged
+59 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\delayed-stream
+60 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\depd is being purged
+61 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\depd
+62 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\dom-serializer is being purged
+63 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\dom-serializer
+64 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\domelementtype is being purged
+65 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\domelementtype
+66 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\domhandler is being purged
+67 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\domhandler
+68 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\domutils is being purged
+69 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\domutils
+70 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\ecc-jsbn is being purged
+71 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\ecc-jsbn
+72 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\end-of-stream is being purged
+73 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\end-of-stream
+74 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\entities is being purged
+75 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\entities
+76 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\es-abstract is being purged
+77 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\es-abstract
+78 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\es-to-primitive is being purged
+79 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\es-to-primitive
+80 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\eventemitter3 is being purged
+81 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\eventemitter3
+82 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\extend is being purged
+83 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\extend
+84 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\extsprintf is being purged
+85 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\extsprintf
+86 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\file-type is being purged
+87 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\file-type
+88 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\foreach is being purged
+89 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\foreach
+90 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\forever-agent is being purged
+91 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\forever-agent
+92 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\form-data is being purged
+93 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\form-data
+94 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\function-bind is being purged
+95 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\function-bind
+96 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\getpass is being purged
+97 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\getpass
+98 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\har-schema is being purged
+99 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\har-schema
+100 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\har-validator is being purged
+101 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\har-validator
+102 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\has is being purged
+103 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\has
+104 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\hawk is being purged
+105 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\hawk
+106 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\he is being purged
+107 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\he
+108 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\hoek is being purged
+109 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\hoek
+110 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\html-to-text is being purged
+111 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\html-to-text
+112 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\htmlparser2 is being purged
+113 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\htmlparser2
+114 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\http-signature is being purged
+115 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\http-signature
+116 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\iconv is being purged
+117 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\iconv
+118 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\inherits is being purged
+119 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\inherits
+120 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-callable is being purged
+121 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-callable
+122 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-date-object is being purged
+123 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-date-object
+124 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-regex is being purged
+125 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-regex
+126 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-symbol is being purged
+127 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-symbol
+128 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-typedarray is being purged
+129 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-typedarray
+130 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\isarray is being purged
+131 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\isarray
+132 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\isstream is being purged
+133 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\isstream
+134 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\jodid25519 is being purged
+135 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\jodid25519
+136 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\jsbn is being purged
+137 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\jsbn
+138 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\json-schema is being purged
+139 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\json-schema
+140 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\json-stable-stringify is being purged
+141 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\json-stable-stringify
+142 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\json-stringify-safe is being purged
+143 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\json-stringify-safe
+144 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\jsonify is being purged
+145 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\jsonify
+146 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\jsprim is being purged
+147 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\jsprim
+148 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash is being purged
+149 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash
+150 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.assignin is being purged
+151 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.assignin
+152 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.bind is being purged
+153 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.bind
+154 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.defaults is being purged
+155 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.defaults
+156 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.filter is being purged
+157 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.filter
+158 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.flatten is being purged
+159 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.flatten
+160 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.foreach is being purged
+161 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.foreach
+162 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.map is being purged
+163 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.map
+164 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.merge is being purged
+165 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.merge
+166 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.pick is being purged
+167 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.pick
+168 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.reduce is being purged
+169 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.reduce
+170 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.reject is being purged
+171 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.reject
+172 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.some is being purged
+173 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.some
+174 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\mime is being purged
+175 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\mime
+176 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\mime-db is being purged
+177 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\mime-db
+178 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\mime-types is being purged
+179 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\mime-types
+180 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\minimist is being purged
+181 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\minimist
+182 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\ms is being purged
+183 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\ms
+184 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\nan is being purged
+185 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\nan
+186 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\node-telegram-bot-api is being purged
+187 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\node-telegram-bot-api
+188 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\nth-check is being purged
+189 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\nth-check
+190 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\oauth-sign is being purged
+191 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\oauth-sign
+192 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\object-keys is being purged
+193 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\object-keys
+194 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\once is being purged
+195 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\once
+196 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\optimist is being purged
+197 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\optimist
+198 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\performance-now is being purged
+199 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\performance-now
+200 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\process-nextick-args is being purged
+201 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\process-nextick-args
+202 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\pump is being purged
+203 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\pump
+204 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\punycode is being purged
+205 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\punycode
+206 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\qs is being purged
+207 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\qs
+208 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\readable-stream is being purged
+209 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\readable-stream
+210 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\registry.npmjs.org is being purged
+211 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\registry.npmjs.org
+212 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\request is being purged
+213 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\request
+214 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\request-promise is being purged
+215 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\request-promise
+216 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\request-promise-core is being purged
+217 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\request-promise-core
+218 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\safe-buffer is being purged
+219 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\safe-buffer
+220 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\sntp is being purged
+221 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\sntp
+222 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\sprintf-js is being purged
+223 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\sprintf-js
+224 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\sshpk is being purged
+225 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\sshpk
+226 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\stealthy-require is being purged
+227 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\stealthy-require
+228 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\string_decoder is being purged
+229 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\string_decoder
+230 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\stringstream is being purged
+231 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\stringstream
+232 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\tough-cookie is being purged
+233 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\tough-cookie
+234 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\tunnel-agent is being purged
+235 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\tunnel-agent
+236 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\tweetnacl is being purged
+237 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\tweetnacl
+238 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\underscore is being purged
+239 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\underscore
+240 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\underscore.string is being purged
+241 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\underscore.string
+242 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\util-deprecate is being purged
+243 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\util-deprecate
+244 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\uuid is being purged
+245 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\uuid
+246 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\verror is being purged
+247 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\verror
+248 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\wordwrap is being purged
+249 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\wordwrap
+250 silly gentlyRm C:\Users\NikitaPC\AppData\Roaming\npm-cache\wrappy is being purged
+251 verbose gentlyRm don't care about contents; nuking C:\Users\NikitaPC\AppData\Roaming\npm-cache\wrappy
+252 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\_locks
+253 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\array.prototype.findindex
+254 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\ajv
+255 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\asn1
+256 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\asynckit
+257 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\aws-sign2
+258 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\assert-plus
+259 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\bl
+260 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\aws4
+261 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\bcrypt-pbkdf
+262 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\buffer-shims
+263 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\boolbase
+264 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\boom
+265 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\clone
+266 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\co
+267 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\cheerio
+268 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\caseless
+269 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\bluebird
+270 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\combined-stream
+271 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\core-util-is
+272 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\css-what
+273 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\dashdash
+274 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\cryptiles
+275 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\css-select
+276 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\define-properties
+277 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\debug
+278 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\delayed-stream
+279 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\domelementtype
+280 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\depd
+281 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\dom-serializer
+282 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\domhandler
+283 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\domutils
+284 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\end-of-stream
+285 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\entities
+286 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\es-abstract
+287 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\es-to-primitive
+288 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\extend
+289 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\eventemitter3
+290 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\extsprintf
+291 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\ecc-jsbn
+292 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\forever-agent
+293 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\function-bind
+294 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\foreach
+295 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\getpass
+296 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\form-data
+297 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\file-type
+298 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\har-schema
+299 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\har-validator
+300 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\he
+301 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\hawk
+302 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\has
+303 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\htmlparser2
+304 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\html-to-text
+305 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\hoek
+306 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\iconv
+307 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\http-signature
+308 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\inherits
+309 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-date-object
+310 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-symbol
+311 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-regex
+312 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-typedarray
+313 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\is-callable
+314 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\isarray
+315 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\isstream
+316 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\jodid25519
+317 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\json-stable-stringify
+318 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\json-schema
+319 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\jsbn
+320 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\json-stringify-safe
+321 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\jsonify
+322 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash
+323 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\jsprim
+324 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.assignin
+325 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.bind
+326 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.defaults
+327 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.flatten
+328 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.map
+329 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.foreach
+330 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.merge
+331 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.filter
+332 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.reduce
+333 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.pick
+334 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.reject
+335 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\mime
+336 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\mime-db
+337 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\lodash.some
+338 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\mime-types
+339 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\ms
+340 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\minimist
+341 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\nan
+342 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\nth-check
+343 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\oauth-sign
+344 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\object-keys
+345 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\once
+346 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\optimist
+347 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\node-telegram-bot-api
+348 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\process-nextick-args
+349 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\pump
+350 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\performance-now
+351 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\punycode
+352 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\registry.npmjs.org
+353 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\readable-stream
+354 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\request-promise
+355 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\request
+356 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\qs
+357 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\request-promise-core
+358 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\safe-buffer
+359 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\sntp
+360 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\stealthy-require
+361 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\sprintf-js
+362 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\sshpk
+363 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\stringstream
+364 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\tough-cookie
+365 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\tunnel-agent
+366 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\string_decoder
+367 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\underscore.string
+368 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\tweetnacl
+369 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\util-deprecate
+370 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\underscore
+371 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\wrappy
+372 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\uuid
+373 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\verror
+374 silly vacuum-fs purging C:\Users\NikitaPC\AppData\Roaming\npm-cache\wordwrap
+375 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+376 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+377 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+378 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+379 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+380 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+381 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+382 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+383 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+384 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+385 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+386 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+387 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+388 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+389 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+390 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+391 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+392 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+393 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+394 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+395 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+396 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+397 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming\npm-cache
+398 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+399 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+400 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+401 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+402 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+403 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+404 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+405 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+406 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+407 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+408 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+409 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+410 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+411 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+412 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+413 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+414 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+415 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+416 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+417 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+418 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+419 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+420 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+421 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+422 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+423 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+424 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+425 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+426 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+427 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+428 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+429 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+430 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+431 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+432 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+433 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+434 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+435 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+436 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+437 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+438 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+439 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+440 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+441 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+442 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+443 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+444 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+445 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+446 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+447 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+448 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+449 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+450 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+451 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+452 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+453 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+454 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+455 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+456 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+457 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+458 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+459 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+460 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+461 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+462 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+463 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+464 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+465 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+466 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+467 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+468 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+469 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+470 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+471 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+472 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+473 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+474 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+475 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+476 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+477 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+478 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+479 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+480 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+481 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+482 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+483 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+484 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+485 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+486 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+487 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+488 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+489 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+490 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+491 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+492 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+493 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+494 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+495 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+496 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+497 silly vacuum-fs removing C:\Users\NikitaPC\AppData\Roaming\npm-cache
+498 silly vacuum-fs unable to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache due to EPERM: operation not permitted, rmdir 'C:\Users\NikitaPC\AppData\Roaming\npm-cache'
+499 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+500 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+501 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+502 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+503 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+504 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+505 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+506 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+507 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+508 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+509 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+510 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+511 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+512 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+513 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+514 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+515 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+516 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+517 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+518 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+519 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+520 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+521 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+522 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+523 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+524 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+525 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+526 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+527 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+528 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+529 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+530 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+531 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+532 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+533 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+534 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+535 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+536 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+537 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+538 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+539 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+540 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+541 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+542 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+543 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+544 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+545 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+546 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+547 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+548 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+549 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+550 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+551 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+552 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+553 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+554 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+555 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+556 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+557 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+558 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+559 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+560 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+561 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+562 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+563 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+564 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+565 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+566 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+567 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+568 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+569 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+570 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+571 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+572 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+573 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+574 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+575 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+576 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+577 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+578 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+579 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+580 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+581 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+582 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+583 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+584 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+585 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+586 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+587 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+588 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+589 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+590 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+591 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+592 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+593 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+594 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+595 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+596 silly vacuum-fs quitting because lost the race to remove C:\Users\NikitaPC\AppData\Roaming\npm-cache
+597 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming
+598 silly vacuum-fs quitting because other entries in C:\Users\NikitaPC\AppData\Roaming
+599 verbose stack Error: EPERM: operation not permitted, rmdir 'C:\Users\NikitaPC\AppData\Roaming\npm-cache'
+599 verbose stack     at Error (native)
+600 verbose cwd C:\Users\NikitaPC\Desktop\TelegramBot
+601 error Windows_NT 10.0.15063
+602 error argv "D:\\Soft\\NodeJs\\node.exe" "D:\\Soft\\NodeJs\\node_modules\\npm\\bin\\npm-cli.js" "cache" "clean" "-f"
+603 error node v6.10.3
+604 error npm  v3.10.10
+605 error path C:\Users\NikitaPC\AppData\Roaming\npm-cache
+606 error code EPERM
+607 error errno -4048
+608 error syscall rmdir
+609 error Error: EPERM: operation not permitted, rmdir 'C:\Users\NikitaPC\AppData\Roaming\npm-cache'
+609 error     at Error (native)
+609 error  { Error: EPERM: operation not permitted, rmdir 'C:\Users\NikitaPC\AppData\Roaming\npm-cache'
+609 error     at Error (native)
+609 error   errno: -4048,
+609 error   code: 'EPERM',
+609 error   syscall: 'rmdir',
+609 error   path: 'C:\\Users\\NikitaPC\\AppData\\Roaming\\npm-cache' }
+610 error Please try running this command again as root/Administrator.
+611 verbose exit [ -4048, true ]

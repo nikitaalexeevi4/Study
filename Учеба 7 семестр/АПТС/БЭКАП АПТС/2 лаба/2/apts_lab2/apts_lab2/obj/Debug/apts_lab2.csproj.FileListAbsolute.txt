@@ -1,0 +1,9 @@
+C:\Users\NikitaPC\Desktop\apts_lab2\apts_lab2\bin\Debug\apts_lab2.exe.config
+C:\Users\NikitaPC\Desktop\apts_lab2\apts_lab2\bin\Debug\apts_lab2.exe
+C:\Users\NikitaPC\Desktop\apts_lab2\apts_lab2\bin\Debug\apts_lab2.pdb
+C:\Users\NikitaPC\Desktop\apts_lab2\apts_lab2\obj\Debug\apts_lab2.csprojResolveAssemblyReference.cache
+C:\Users\NikitaPC\Desktop\apts_lab2\apts_lab2\obj\Debug\apts_lab2.Form1.resources
+C:\Users\NikitaPC\Desktop\apts_lab2\apts_lab2\obj\Debug\apts_lab2.Properties.Resources.resources
+C:\Users\NikitaPC\Desktop\apts_lab2\apts_lab2\obj\Debug\apts_lab2.csproj.GenerateResource.Cache
+C:\Users\NikitaPC\Desktop\apts_lab2\apts_lab2\obj\Debug\apts_lab2.exe
+C:\Users\NikitaPC\Desktop\apts_lab2\apts_lab2\obj\Debug\apts_lab2.pdb

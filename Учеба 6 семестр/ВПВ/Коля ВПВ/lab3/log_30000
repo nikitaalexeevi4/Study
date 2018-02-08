@@ -1,0 +1,90 @@
+---------------------------------------------
+processors count 1
+recive: x1=0; x2=1.57; process_id: 0
+res 7.103; time 0.007161
+---------------------------------------------
+processors count 2
+x1=0.785 x2=1.57
+recive: x1=0; x2=0.785; process_id: 0
+recive: x1=0.785; x2=1.57; process_id: 1
+res 7.103; time 0.003554
+---------------------------------------------
+processors count 3
+x1=0.523333 x2=1.04667
+x1=1.04667 x2=1.57
+recive: x1=0.523333; x2=1.04667; process_id: 1
+recive: x1=0; x2=0.523333; process_id: 0
+recive: x1=1.04667; x2=1.57; process_id: 2
+res 7.103; time 0.01003
+---------------------------------------------
+processors count 4
+x1=0.3925 x2=0.785
+x1=0.785 x2=1.1775
+recive: x1=0.3925; x2=0.785; process_id: 1
+x1=1.1775 x2=1.57
+recive: x1=0.785; x2=1.1775; process_id: 2
+recive: x1=0; x2=0.3925; process_id: 0
+recive: x1=1.1775; x2=1.57; process_id: 3
+res 7.103; time 0.01706
+---------------------------------------------
+processors count 5
+x1=0.314 x2=0.628
+x1=0.628 x2=0.942
+recive: x1=0.314; x2=0.628; process_id: 1
+x1=0.942 x2=1.256
+recive: x1=0.628; x2=0.942; process_id: 2
+x1=1.256 x2=1.57
+recive: x1=0.942; x2=1.256; process_id: 3
+recive: x1=0; x2=0.314; process_id: 0
+recive: x1=1.256; x2=1.57; process_id: 4
+res 7.103; time 0.019248
+---------------------------------------------
+processors count 6
+x1=0.261667 x2=0.523333
+x1=0.523333 x2=0.785
+recive: x1=0.261667; x2=0.523333; process_id: 1
+x1=0.785 x2=1.04667
+recive: x1=0.523333; x2=0.785; process_id: 2
+x1=1.04667 x2=1.30833
+recive: x1=0.785; x2=1.04667; process_id: 3
+x1=1.30833 x2=1.57
+recive: x1=1.04667; x2=1.30833; process_id: 4
+recive: x1=0; x2=0.261667; process_id: 0
+recive: x1=1.30833; x2=1.57; process_id: 5
+res 7.103; time 0.02175
+---------------------------------------------
+processors count 7
+x1=0.224286 x2=0.448571
+x1=recive: x1=0.224286; x2=0.448571; process_id: 1
+0.448571 x2=0.672857
+x1=0.672857 x2=0.897143
+recive: x1=0.448571; x2=0.672857; process_id: 2
+x1=0.897143 x2=1.12143
+recive: x1=x1=0.6728571.12143 x2=1.34571
+; x2=0.897143; process_id: 3
+recive: x1=0.897143; x2=1.12143; process_id: 4
+x1=1.34571 x2=1.57
+recive: x1=1.12143; x2=1.34571; process_id: 5
+recive: x1=0; x2=0.224286; process_id: 0
+recive: x1=1.34571; x2=1.57; process_id: 6
+res 7.103; time 0.026685
+---------------------------------------------
+processors count 8
+x1=0.19625 x2=0.3925
+x1=0.3925 x2=0.58875
+recive: x1=0.19625; x2=0.3925; process_id: 1
+x1=0.58875 x2=0.785
+recive: x1=0.3925; x2=0.58875; process_id: 2
+x1=0.785 x2=0.98125
+recive: x1=0.58875; x2=0.785; process_id: 3
+x1=0.98125 x2=1.1775
+recive: x1=0.785; x2=0.98125; process_id: 4
+x1=1.1775 x2=1.37375
+recive: x1=0.98125; x2=1.1775; process_id: 5
+x1=1.37375 x2=1.57
+recive: x1=1.1775; x2=1.37375; process_id: 6
+recive: x1=0; x2=0.19625; process_id: 0
+recive: x1=1.37375; x2=1.57; process_id: 7
+res 7.103; time 0.027986
+---------------------------------------------
+

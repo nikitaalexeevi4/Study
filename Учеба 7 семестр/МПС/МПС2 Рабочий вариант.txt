@@ -1,0 +1,76 @@
+/*
+ * MPS_2_Ex.cpp
+ *
+ * Created: 16.10.2017 16:36:22
+ * Author : NikitaPC
+ */ 
+
+#define F_CPU 1000000
+
+
+#include <avr/io.h>
+#include <util/delay.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdbool.h>
+#include <time.h>
+
+int main (void)
+{
+	DDRB = 0x00;
+	PORTB = 0x00;
+	DDRC = 0xFF;
+	PORTC = 0x00;
+
+	int cnt = 0;
+	int i1 = 0, i2 = 0, i3 = 0, i4 = 0;
+
+	while(1) {
+
+		PORTC = 0x00;
+
+		int inp = PINB;
+		i1 = inp & (1<<PB0);
+		i2 = inp & (1<<PB1);
+		i3 = inp & (1<<PB2);
+		i4 = inp & (1<<PB3);
+
+		int t1 = 0, t2 = 0, t3 = 0;
+
+		t1 = (cnt % 5 == 0 && cnt!= 0);
+		t2 = (cnt % 7 == 0 && cnt!= 0);
+		t3 = (cnt % 9 == 0 && cnt!= 0);
+
+
+		int o1 = 0, o2 = 0, o3 = 0, o4 = 0;
+
+		if ((!o2 && !o3 && !o4) && t3) {
+			o1 = 1;
+		}
+		if ((i4 || o4 || i3) && t1) {
+			o2 = 1;
+		}
+		if ((i1 && i2) && t2) {
+			o3 = 1;
+		}
+		if (o3 && i3) {
+			o4 = 1;
+		}
+		
+
+		if(o1)
+		PORTC = PORTC | (1<<PC0);
+		if(o2)
+		PORTC = PORTC | (1<<PC1);
+		if(o3)
+		PORTC = PORTC | (1<<PC2);
+		if(o4)
+		PORTC = PORTC | (1<<PC3);
+	
+		cnt++;
+		cnt %= 12;
+		_delay_ms(1000);
+	
+	}
+
+}

@@ -1,0 +1,93 @@
+1 000 000
+res 7.13452 threads 1 time 0.0269009
+res 7.13452 threads 2 time 0.0136831
+res 7.13452 threads 3 time 0.0104794
+res 7.13452 threads 4 time 0.00948428
+res 7.13452 threads 5 time 0.00813189
+res 7.13452 threads 6 time 0.00692954
+res 7.13452 threads 7 time 0.00601419
+res 7.13452 threads 8 time 0.00580035
+
+100 000
+res 7.12568 threads 1 time 0.00269548
+res 7.12568 threads 2 time 0.00137912
+res 7.12568 threads 3 time 0.00101971
+res 7.12568 threads 4 time 0.00092399
+res 7.12568 threads 5 time 0.000805639
+res 7.12568 threads 6 time 0.000685215
+res 7.12568 threads 7 time 0.000617731
+res 7.12568 threads 8 time 0.000627385
+
+10 000
+res 7.04015 threads 1 time 0.000271889
+res 7.04015 threads 2 time 0.000145991
+res 7.04015 threads 3 time 0.000126688
+res 7.04015 threads 4 time 0.000102469
+res 7.04015 threads 5 time 8.48194e-005
+res 7.04015 threads 6 time 7.40649e-005
+res 7.04015 threads 7 time 6.77708e-005
+res 7.04015 threads 8 time 9.16054e-005
+
+1000
+res 6.41347 threads 1 time 2.97401e-005
+res 6.41347 threads 2 time 2.23778e-005
+res 6.41347 threads 3 time 1.76944e-005
+res 6.41347 threads 4 time 1.99072e-005
+res 6.41347 threads 5 time 1.536e-005
+res 6.41347 threads 6 time 1.99316e-005
+res 6.41347 threads 7 time 1.54667e-005
+res 6.41347 threads 8 time 4.46819e-005
+
+
+100
+res 4.65082 threads 1 time 4.0097e-006
+res 4.65082 threads 2 time 7.40154e-006
+res 4.65082 threads 3 time 1.03871e-005
+res 4.65082 threads 4 time 1.46307e-005
+res 4.65082 threads 5 time 1.86047e-005
+res 4.65082 threads 6 time 2.17206e-005
+res 4.65082 threads 7 time 1.87541e-005
+res 4.65082 threads 8 time 5.05309e-005
+
+
+
+
+10 000 000
+res 7.1354 threads 1 time 0.268408
+res 7.1354 threads 2 time 0.137639
+res 7.1354 threads 3 time 0.101376
+res 7.1354 threads 4 time 0.0867849
+res 7.1354 threads 5 time 0.0795786
+res 7.1354 threads 6 time 0.0678764
+res 7.1354 threads 7 time 0.0603027
+res 7.1354 threads 8 time 0.0543946
+
+
+
+1 000 000 000
+res 7.13547 threads 1 time 26.8366
+res 7.13546 threads 2 time 13.6665
+res 7.13546 threads 3 time 9.90036
+res 7.13547 threads 4 time 7.93466
+res 7.13548 threads 5 time 6.89525
+res 7.13548 threads 6 time 6.13942
+res 7.13548 threads 7 time 5.46866
+res 7.13549 threads 8 time 5.03725
+
+100 000 000
+res 7.13549 threads 1 time 2.69948
+res 7.13549 threads 2 time 1.37417
+res 7.13549 threads 3 time 0.996909
+res 7.13549 threads 4 time 0.80385
+res 7.13549 threads 5 time 0.72147
+res 7.13549 threads 6 time 0.642218
+res 7.13549 threads 7 time 0.551275
+res 7.13549 threads 8 time 0.518097
+
+
+
+
+
+
+
+
